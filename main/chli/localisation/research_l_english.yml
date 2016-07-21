@@ -107,7 +107,7 @@
  regimental_combat_teams_desc:0 "团级战斗队是指与炮兵、坦克、侦察兵紧密结合的团级步兵单位，这样就形成了在进攻行动中更加灵活的自立单位。"
  dispersed_support:0 "分散支援"
  dispersed_support_desc:0 "将支援单位在前线后方分散开来能够覆盖更大的范围，增强单位的防御能力。\n\n"
- overwhelming_firepower:0 "优势火力"
+ overwhelming_firepower:0 "压倒性火力"
  overwhelming_firepower_desc:0 "将所有支援单位的火力集中在一点上能够有效地击溃敌方防御，或压制敌方进攻。"
  sup_mechanized_offensive:0 "机械化攻势"
  sup_mechanized_offensive_desc:0 "摩托化部队表现尚可，但要主导攻势，需要我方机械化步兵乘坐能搭载重武器并提供乘员保护的装甲运输车辆进入战场。"
