@@ -1,4 +1,11 @@
-﻿2016-09-18 09:33		更新适配游戏版本号为1.2
+﻿
+2016-09-18 11:20		equipment_l_english.yml文件添加新境内容:ARCHETYPE_DESC_ENTRY
+2016-09-18 11:03 	为deployment_l_english.yml文件添加新增内容并汉化
+					即部队训练布置界面相关
+2016-09-18 10:12		为frontend_l_english.yml文件中添加1.2版本的新内容汉化
+					即各主要国家AI选项
+
+2016-09-18 09:33		更新适配游戏版本号为1.2
 
 2016-07-21 22:55				将overwhelming_firepower译文改为"压倒性火力"
 

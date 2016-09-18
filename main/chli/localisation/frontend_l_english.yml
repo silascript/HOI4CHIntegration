@@ -131,6 +131,10 @@
  FE_DIFFICULTY_MODIFIER_PLAYER_TOOLTIP:0 "\n\n玩家:\n$PLAYERMOD$"
  FE_DIFFICULTY_MODIFIER_AI_TOOLTIP:0 "\n\nAI:\n$AIMOD$"
  FE_IRONMAN_MP_BLOCKED:0 "§R多人游戏无法使用铁人模式。§!"
+
+ FE_CUSTOM_DIFFICULTY_TOOLTIP:0 "Applied to: $COUNTRIES$\n$MODIFIER$"
+ 
+ FE_RESET:0 "全部重置"
  DAILY:0 "每日"
  WEEKLY:0 "每周"
  GAMESETUP_SELECT_SCENARIO:0 "选择剧本或载入存档"
@@ -143,3 +147,14 @@
  ACHIEVEMENTS_DIFFICULTY:0 "常规或以上难度"
  ACHIEVEMENTS_OK:0 "§H能够获得成就！§!"
  ACHIEVEMENTS_NOT_OK:0 "§R当前无法获得成就。§!"
+
+ diff_strong_ai_generic:0 "更强的AI"
+ custom_diff_strong_ger:0 "加强 德国"
+ custom_diff_strong_ita:0 "加强 意大利"
+ custom_diff_strong_sov:0 "加强 苏联"
+ custom_diff_strong_fra:0 "加强 法国"
+ custom_diff_strong_eng:0 "加强 英国"
+ custom_diff_strong_usa:0 "加强 美国"
+ custom_diff_strong_jap:0 "加强 日本"
+ custom_diff_strong_chi:0 "加强 中华民国"
+

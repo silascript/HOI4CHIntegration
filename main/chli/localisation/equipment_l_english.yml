@@ -774,6 +774,7 @@
  REQUESTED_MANPOWER_DETAILS:0 "下一批$NUM|Y$人力将在$HR|Y$小时后送达.\n我们大约需要$D|Y$天来让部队满员."
  NOT_ENOUGH_MANPOWER_TO_REINFORCE:0 "没有足够的人力进行增员."
  MANPOWER_REINFORCEMENT_NOT_POSSIBLE:0 "§R增员在当前区域不可行.§!"
+ ARCHETYPE_DESC_ENTRY:0 "    - $COUNT|0$ $NAME|H$"
  OUTDATED_EQ:0 "展示过时装备"
  guided_missile_equipment:0 "制导导弹"
  guided_missile_equipment_1:0 "基础制导导弹"
