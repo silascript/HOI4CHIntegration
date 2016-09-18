@@ -1,4 +1,7 @@
-﻿
+﻿2016-09-18 22:05		为state_names.yml文件添加并汉化两新增内容:
+						STATE_741:0 "柬埔寨"
+ 						STATE_742:0 "斯大林纳巴德"
+ 						
 2016-09-18 21:50		countries_l_english.yml添加新增内容并进行部分汉化
 2016-09-18 11:20		equipment_l_english.yml文件添加新境内容:ARCHETYPE_DESC_ENTRY
 2016-09-18 11:03 	为deployment_l_english.yml文件添加新增内容并汉化
