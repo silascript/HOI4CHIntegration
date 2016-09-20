@@ -52,7 +52,7 @@
  GENERATE_WARGOAL_TENSION_DESC:0 "需要$VAL|%Y0$紧张度来制造战争目标。\n"
  JOIN_FACTION_TENSION_DESC:0 "需要$VAL|%Y0$紧张度来加入或创建一个阵营。\n"
  LEND_LEASE_TENSION_DESC:0 "需要$VAL|%Y0$紧张度来送出一份租借法案援助。\n"
- SEND_VOLUNTEERS_TENSION_DESC:0 "需要$VAL|%Y0$紧张度来派出志愿部队。\n"
+ SEND_VOLUNTEERS_TENSION_DESC:0 "需要$VAL|%Y0$紧张度来派遣志愿军。\n"
  GUARANTEE_TENSION_DESC:0 "需要$VAL|%Y0$紧张度来保证另一个国家的独立。\n"
  NUCLEAR_PRODUCTION_SPEED:0 "建造的核反应堆: $NUM|Y$\n总体生产速度: $PROC|%1+$/天"
  THREAT_WINDOW_NAME:0 "全球紧张度历史记录"

@@ -57,7 +57,7 @@
  SAVEGAME_LOADED:0 "§G读取完毕§!"
  NOT_ALLOWED_TO_CHANGE_COUNTRY:0 "§R你现在还不能更改所选国家。§!"
  OOS_TITLE:0 "游戏同步丢失"
- OOS_DESC:1 "$WHO|H$失去了正确的游戏状态。\n错误代码：$CODE|R$ \n($CODE_DESC$) \n \n 主机无法继续确保所有玩家处于正确的游戏状态。可能的解决方案：\n 1. 主机可以重开。\n 2. 继续游戏。 (不推荐。通常会在之后导致游戏崩溃)"
+ OOS_DESC:1 "$WHO|H$失去了正确的游戏状态。\n错误代码：$CODE|R$ \n($CODE_DESC$) \n \n 主机无法继续确保所有玩家处于正确的游戏状态。可能的解决方案：\n 1. 主机可以重新同步游戏。\n 2. 如果热加入有启用的话，玩家可以离开游戏后重连。\n 3. 主机可以重建游戏。\n 4. 继续游戏。 (不推荐。通常会在之后导致游戏崩溃)"
  OOS_ERROR_CODE:0 "错误代码：$CODE$"
  GAME_IS_OOS:0 "游戏同步丢失。错误代码：$CODE$。错误描述：$LONG$"
  OOS_0:0 "随机数种子"
@@ -128,7 +128,6 @@
  ACTIVATE_OBSERVER_MODE:0 "激活观察者模式"
  DEACTIVATE_OBSERVER_MODE:0 "关闭观察者模式"
  OBSERVER_MODE_DESC:0 "观察者模式允许你以其他玩家的视角观看游戏，但是无法控制任何东西。"
- # http://bbs.52pcgame.net/ 52pcgame汉化
  USER_NAME:0 "用户名：$USER|Y$"
  PLAYER_REMOVED_TITLE:0 "$PLAYER$退出了"
  PLAYER_REMOVED_DESC:0 "$PLAYER|Y$不幸退出了游戏。\n你希望$COUNTRY|Y$由AI接替控制么？"
