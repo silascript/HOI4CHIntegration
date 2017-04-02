@@ -39,6 +39,7 @@
  PEACE_DONE_DESC:0 "一旦你点击了这个按钮你的剩余点数将会被分配给你阵营的其他成员国，而你将无法再参与和谈。已经执行的和谈行动依然会有效。只有当你对自己的收益完全满意时才应该使用这个按钮，将点数留给其他的战胜国。"
  PEACE_PASS:0 "£victory_points $GAIN|Y$ 跳过本轮"
  PEACE_PASS_DESC:0 "如果你跳过本轮会谈，其他人将可以使用它们的点数提出要求。相应的你会获得 £victory_points $GAIN|Y$ 额外点数用于下一轮和谈"
+ PEACE_PASS_EMPTY:0 "§R这个回合没有可获得的东西§!"
  PEACE_CONFERENCE_RESET:0 "重置和谈行动"
  PEACE_CONFERENCE_PASS:0 "结束你的本轮会谈"
  PEACE_CONFERENCE_PASS_DESC:0 "你还剩 §Y$VALUE$§! 分可以使用.\n你将不会再有机会使用它"

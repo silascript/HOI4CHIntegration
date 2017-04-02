@@ -16,15 +16,15 @@
  cv_nav_bomber_equipment_desc:0 "海军轰炸机可攻击敌方舰船。"
  tac_bomber:0 "战术轰炸机"
  tac_bomber_equipment_desc:0 "战术轰炸机较其他轰炸机更小巧轻快，可协助地面部队并轰炸敌方建筑。"
- jet_tac_bomber:0 "喷气式战术轰炸机"
- jet_tac_bomber_equipment:0 "喷气式战术轰炸机"
+ jet_tac_bomber:1 "喷气式战术轰炸机"
+ jet_tac_bomber_equipment:1 "喷气式战术轰炸机"
  jet_tac_bomber_equipment_desc:0 "战术轰炸机较其他轰炸机更小巧轻快，可协助地面部队并轰炸敌方建筑。"
  heavy_fighter:0 "重型战斗机"
  heavy_fighter_equipment_desc:0 "重型战斗机的航程长、武器强力。既适合在航程内为轰炸机护航，亦适于截击敌方轰炸机。但其低灵敏度使得它们面对普通战斗机时难以抗衡。"
  strat_bomber:0 "战略轰炸机"
  strat_bomber_equipment_desc:0 "战略轰炸机攻击敌方建筑及基础设施，毁坏其珍贵的工业。"
- jet_strat_bomber:0 "喷气式战略轰炸机"
- jet_strat_bomber_equipment:0 "喷气式战略轰炸机"
+ jet_strat_bomber:1 "喷气式战略轰炸机"
+ jet_strat_bomber_equipment:1 "喷气式战略轰炸机"
  jet_strat_bomber_equipment_desc:0 "战略轰炸机攻击敌方建筑及基础设施，毁坏其珍贵的工业。"
  transport_plane:0 "运输机"
  transport_plane_equipment_desc:0 "投送空降部队至其目标地点。"
@@ -965,6 +965,14 @@
  FRA_cv_fighter_equipment_2_short:0 "D.790"
  FRA_cv_fighter_equipment_3:0 "德瓦蒂纳D.525"
  FRA_cv_fighter_equipment_3_short:0 "D.525"
+ GER_transport_plane_equipment_1:0 "Ju 52"
+ USA_transport_plane_equipment_1:0 "DC-3"
+ JAP_transport_plane_equipment_1:0 "Ki-56"
+ SOV_transport_plane_equipment_1:0 "Li-2"
+ ENG_transport_plane_equipment_1:0 "布里斯托 孟买"
+ ITA_transport_plane_equipment_1:0 "卡普罗尼Ca.133"
+ FRA_transport_plane_equipment_1:0 "MB. 220"
+ SWE_transport_plane_equipment_1:0 "Trp2"
 
  ###Planes###
  # Australia
@@ -1032,7 +1040,13 @@
  
  BEL_jet_fighter_equipment_2:0 "萨布卡猎人式"
  BEL_jet_fighter_equipment_2_short:0 "猎人式"
- 
+
+ #Bulgarian
+
+ BUL_CAS_equipment_1:0 "DAR 10"
+ BUL_CAS_equipment_1_short:0 "DAR 10"
+ BUL_CAS_equipment_2:0 "KB-11 野鸡"
+ BUL_CAS_equipment_2_short:0 "KB-11"
  # canadian
  
  CAN_jet_fighter_equipment_1:0 "德哈维兰吸血鬼式"
@@ -1043,6 +1057,9 @@
  #Czech 
  CZE_CAS_equipment_1:0 "沃多乔迪A.101"
  CZE_CAS_equipment_1_short:0 "Aero A.101"
+ CZE_CAS_equipment_2:0 "莱托夫S-28"
+ CZE_CAS_equipment_2_short:0 "S-28"
+ 
  CZE_fighter_equipment_0:0 "阿维亚B-34.1"
  CZE_fighter_equipment_0_short:0 "阿维亚B-34.1"
  CZE_fighter_equipment_1:0 "阿维亚B-534.1"
@@ -1065,6 +1082,8 @@
  #Romania
  ROM_CAS_equipment_1:0 "IAR 37"
  ROM_CAS_equipment_1_short:0 "IAR 37"
+ ROM_CAS_equipment_2:0 "IAR 81"
+ ROM_CAS_equipment_2_short:0 "IAR 81"
  ROM_CAS_equipment_3:0 "IAR 471"
  ROM_CAS_equipment_3_short:0 "IAR 471"
  
@@ -1152,16 +1171,24 @@
  #Hungary
  HUN_heavy_fighter_equipment_2:0 "DRR Me 201Ca-1"
  HUN_heavy_fighter_equipment_2_short:0 "Me 210Ca-1"
+ HUN_heavy_fighter_equipment_3:1 "RMI-8 X/V"
+ HUN_heavy_fighter_equipment_3_short:1 "RMI-8 X/V"
  
- HUN_CAS_equipment_1:0 "Weiss WM-21 Sólyom"
+ HUN_CAS_equipment_1:1 "魏斯WM-16 布达佩斯"
  HUN_CAS_equipment_1_short:0 "WM-21"
+ HUN_CAS_equipment_2:0 "魏斯WM-21 隼"
+ HUN_CAS_equipment_2_short:0 "WM-21"
+ HUN_CAS_equipment_3:0 "RMI-3 Z/G"
+ HUN_CAS_equipment_3_short:0 "RMI-3 Z/G"
  
  HUN_fighter_equipment_0:0 "AVIS III"
  HUN_fighter_equipment_0_short:0 "AVIS III"
- HUN_fighter_equipment_2:0 "Weiss WM-23 Ezustnyil"
- HUN_fighter_equipment_2_short:0 "WM-23"
- HUN_fighter_equipment_3:0 "MÁVAG Héja"
- HUN_fighter_equipment_3_short:0 "Héja"
+ HUN_fighter_equipment_1:0 "魏斯WM-23 银箭"
+ HUN_fighter_equipment_1_short:0 "WM-23"
+ HUN_fighter_equipment_2:1 "匈牙利皇家铁路机械制造公司 鹰"
+ HUN_fighter_equipment_2_short:1 "鹰"
+ HUN_fighter_equipment_3:0 ""匈牙利皇家铁路机械制造公司 鹰II"
+ HUN_fighter_equipment_3_short:0 "鹰II"
 
  #British Raj
 
@@ -1215,6 +1242,9 @@
  
  #switzerland
  
+ SWI_fighter_equipment_0:0 "德瓦蒂纳D.27"
+ SWI_fighter_equipment_0_short:0 "D.27"
+
  SWI_tac_bomber_equipment_0:0 "K+W Thun 福克C.V.-E"
  SWI_tac_bomber_equipment_0_short:0 "K+W C.V.-E"
  
@@ -1263,9 +1293,13 @@
  YUG_heavy_fighter_equipment_1_short:0 "IK-5"
  YUG_heavy_fighter_equipment_2:0 "洛格萨斯基R-313"
  YUG_heavy_fighter_equipment_2_short:0 "R-313"
+ YUG_heavy_fighter_equipment_3:0 "内纳多维奇-米特罗维奇"
+ YUG_heavy_fighter_equipment_3_short:0 "NEMI"
  
- YUG_CAS_equipment_1:0 "伊卡鲁斯飓风式"
- YUG_CAS_equipment_1_short:0 "伊卡鲁斯飓风式"
+ YUG_CAS_equipment_1:1 "洛格萨斯基R-100"
+ YUG_CAS_equipment_1_short:0 "R-100"
+ YUG_CAS_equipment_2:0 "伊卡鲁斯飓风式"
+ YUG_CAS_equipment_2_short:0 "伊卡鲁斯飓风式"
  
  YUG_tac_bomber_equipment_0:0 "DFA-Breguet Br. 19 A2"
  YUG_tac_bomber_equipment_0_short:0 "Br. 19 A2"
@@ -1273,6 +1307,8 @@
  YUG_tac_bomber_equipment_1_short:0 "Do-17 Ka"
  YUG_tac_bomber_equipment_2:0 "DFA-布里斯托布伦海姆式"
  YUG_tac_bomber_equipment_2_short:0 "布伦海姆式"
+ YUG_tac_bomber_equipment_3:0 "Zmaj R-1"
+ YUG_tac_bomber_equipment_3_short:0 "R-1"
  
  YUG_nav_bomber_equipment_1:0 "洛格萨斯基SIM-XIV-H"
  YUG_nav_bomber_equipment_1_short:0 "SIM-XIV-H"

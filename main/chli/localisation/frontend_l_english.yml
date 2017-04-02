@@ -66,7 +66,7 @@
  SM_RESOLUTION:0 "分辨率"
  SM_REFRESH_RATE:0 "刷新率"
  SM_GAMMA:0 "伽马值"
- SM_GAMMA_TOOLTIP:0 "全屏模式下已被禁用"
+ SM_GAMMA_TOOLTIP:1 "全屏模式下启用"
  SM_SHADOWS:0 "阴影"
  SM_WINDOWED:0 "窗口化"
  SM_FULLSCREEN:0 "全屏"
