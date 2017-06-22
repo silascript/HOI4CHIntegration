@@ -502,7 +502,7 @@
  ELS_fascism_ADJ:0 "萨尔瓦多"
  ELS_democratic_ADJ:0 "萨尔瓦多"
  ELS_neutrality_ADJ:0 "萨尔瓦多"
- ELS_communism_ADJ:0 "中美洲"
+ ELS_communism_ADJ:0 "萨尔瓦多"
  GUA_fascism:0 "危地马拉社团国"
  GUA_fascism_DEF:0 "危地马拉社团国"
  GUA_democratic:0 "危地马拉共和国"
@@ -1247,7 +1247,6 @@
  ARM_democratic_ADJ:0 "亚美尼亚"
  ARM_neutrality_ADJ:0 "亚美尼亚"
  ARM_communism_ADJ:0 "亚美尼亚"
- 
  BLR_fascism:0 "民族主义白俄罗斯"
  BLR_fascism_DEF:0 "民族主义白俄罗斯"
  BLR_democratic:0 "白俄罗斯共和国"
@@ -1356,8 +1355,6 @@
  MAN_democratic_ADJ:0 "满洲"
  MAN_neutrality_ADJ:0 "满洲"
  MAN_communism_ADJ:0 "满洲"
-
-
 
  FACTION_NAME_DEMOCRATIC_1:0 "$CONTINENT_ADJ$联合"
  FACTION_NAME_DEMOCRATIC_2:0 "$CONTINENT_ADJ$协约"
