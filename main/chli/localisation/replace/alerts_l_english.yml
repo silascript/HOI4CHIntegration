@@ -1,6 +1,6 @@
 ﻿l_english:
- ALERT_RIGHTCLICK:0 "§G右键关闭§!"
- ALERT_RIGHTCLICK_REPORT:0 "§G右键关闭§!。这会关闭所有此类未读地图报告。"
+ ALERT_RIGHTCLICK:0 "§G右键点击关闭§!"
+ ALERT_RIGHTCLICK_REPORT:0 "§G右键点击关闭§!。这会关闭所有此类未读地图报告。"
  alert_hostile_troops_instant:0 "§R敌方部队§!"
  alert_hostile_troops_delayed:1 "在守备区存在敌方部队."
  alert_naval_invasion_instant:0 "§R登陆§!"

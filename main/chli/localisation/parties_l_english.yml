@@ -215,6 +215,7 @@
  YUG_democratic_party:0 "南斯拉夫民主党"
  YUG_democratic_party_long:0 "南斯拉夫民主党"
  YUG_neutrality_party:0 "摄政议会"
+ YUG_neutrality_party_2:0 "君主派"
  YUG_fascism_party:0 "南斯拉夫激进联盟"
  YUG_fascism_party_long:0 "南斯拉夫激进联盟"
  SER_communism_party:0 "共产联盟"
@@ -489,3 +490,5 @@
  PAK_democratic_party:0 "共和党"
  PAK_communism_party:0 ""
  PAK_neutrality_party:0 "穆斯林联盟"
+ PRC_democratic_party:0 "民革"
+ PRC_democratic_party_long:0 "中国国民党革命委员会"

@@ -34,7 +34,7 @@
  civil_war_short_desc:0 "设定此战争目标可以在和谈中用更小的代价吞并已选择的国家。"
  topple_government:0 "颠覆政权"
  topple_government_desc:0 "颠覆现有政权。"
- topple_government_shor_desc:0 "设定此战争目标可以在和谈中用更小的代价颠覆政权。"
+ topple_government_short_desc:0 "这个战争目标可以降低和谈时颠覆政府的花费。"
  anti_comintern_pact:0 "反共产国际条约"
  anti_comintern_pact_desc:0 "是时候缔结如下条约了： "认清共产国际（即第三国际）之目的在采取一切手段以破坏威胁现存的国家;深信忽视共产国际对于各国国内关系的干涉，不但将危及其国家安宁及社会福利，且将威胁全世界合作防范共产主义颠覆合同的渴望。"\n此举将改善签约国之间的关系。"
  anti_comintern_pact_short_desc:0 "§L和意大利与日本组成联合阵线共同对抗共产国际。§!"

@@ -1465,7 +1465,7 @@
  heavy_tank_equipment_3_desc:0 "重型坦克是被设计用以摧毁敌人坦克和防御工事的大型装甲怪物。"
  GER_heavy_tank_equipment_3:0 "虎王坦克"
  GER_heavy_tank_equipment_3_short:0 "虎王"
- GER_heavy_tank_equipment_3_desc:0 "因其被盟军士兵半直译为老虎之王的非正式名字而广为人知。其与虎式I基于同样设计原则但更为强大。虎式II结合了虎式I的厚装甲和美洲豹中型坦克的倾斜装甲。整车重量将近70吨，前部有着厚达100至180毫米的装甲保护，装备有8.8 cm KwK 43 L/71主炮"
+ GER_heavy_tank_equipment_3_desc:0 "因其被盟军士兵半直译为老虎之王的非正式名字而广为人知。其与虎式I基于同样设计原则但更为强大。虎式II结合了虎式I的厚装甲和美洲豹中型坦克的倾斜装甲。整车重量将近70吨，前部有着厚达100至180毫米的装甲保护，装备有8.8cm KwK 43 L/71主炮"
  ENG_heavy_tank_equipment_3:0 "黑王子"
  ENG_heavy_tank_equipment_3_short:0 "黑王子"
  USA_heavy_tank_equipment_3:0 "M26潘兴"
@@ -1554,7 +1554,7 @@
  super_heavy_tank_equipment:0 "超重型坦克"
  super_heavy_tank_equipment_desc:0 "超重型坦克是重型坦克概念的演化。更多更厚的装甲也让他们的车身重量在软土地和部分桥梁上通行时遇到严重问题。"
  super_heavy_tank_equipment_1:0 "超重型坦克"
- super_heavy_tank_equipment_1_short:0 "超重坦克"
+ super_heavy_tank_equipment_1_short:0 "超重型坦克"
  super_heavy_tank_equipment_1_desc:0 "超重型坦克是重型坦克概念的演化。更多更厚的装甲也让他们的车身重量在软土地和部分桥梁上通行时遇到严重问题。"
  GER_super_heavy_tank_equipment_1:0 "鼠式坦克"
  GER_super_heavy_tank_equipment_1_short:0 "鼠式"
@@ -1795,10 +1795,12 @@
  FRA_anti_tank_equipment_1_short:0 "25mm反坦克炮"
  FRA_anti_tank_equipment_2:0 "47mm SA37"
  FRA_anti_tank_equipment_3:0 "1943型76mm火炮"
+ FRA_anti_tank_equipment_3_short:0 "1943型76mm火炮"
  
  CZE_anti_tank_equipment_1:0 "3.7cm vz.24反坦克炮"
  CZE_anti_tank_equipment_1_short:0 "3.7cm vz.34反坦克炮"
- CZE_anti_tank_equipment_2:0 "4.7CM vz. 38反坦克炮"
+ CZE_anti_tank_equipment_2:0 "4.7cm vz.38反坦克炮"
+ CZE_anti_tank_equipment_3:0 "7.5cm vz.43反坦克炮"
  
  ENG_anti_tank_equipment_1:0 "QF-2磅反坦克炮"
  ENG_anti_tank_equipment_1_short:0 "QF-2磅反坦克炮"
@@ -1845,13 +1847,13 @@
  JAP_anti_tank_equipment_2:0 "47mm一式反坦克炮"
  JAP_anti_tank_equipment_3:0 "75mm四式反坦克炮"
 
- HUN_anti_tank_equipment_1:0 "36M 47 mm"
+ HUN_anti_tank_equipment_1:0 "36M 47mm"
  HUN_anti_tank_equipment_1_short:0 "36M"
- HUN_anti_tank_equipment_2:0 "38M 50 mm"
- HUN_anti_tank_equipment_3:0 "43M 75 mm"
+ HUN_anti_tank_equipment_2:0 "38M 50mm"
+ HUN_anti_tank_equipment_3:0 "43M 75mm"
  
- SOV_anti_tank_equipment_1:0 "m1930"
- SOV_anti_tank_equipment_1_short:0 "37mm m1930反坦克炮"
+ SOV_anti_tank_equipment_1:0 "37mm m1930反坦克炮"
+ SOV_anti_tank_equipment_1_short:0 "M1930"
  SOV_anti_tank_equipment_2:0 "M42 45mm反坦克炮"
  SOV_anti_tank_equipment_3:0 "76.2mm Zis-3反坦克炮"
  
@@ -1992,7 +1994,7 @@
  
  NOR_anti_air_equipment_1:0 "柯尔特M/29防空炮"
  NOR_anti_air_equipment_2:0 "40mm m/36自动机关炮"
- NOR_anti_air_equipment_3:0 "7.5 cm m/32高射炮"
+ NOR_anti_air_equipment_3:0 "7.5cm m/32高射炮"
 
  anti_tank_equipment_1:0 "牵引式反坦克炮"
  anti_tank_equipment_1_short:0 "反坦克炮"
@@ -2009,8 +2011,8 @@
  
  CZE_artillery_equipment_1:0 "8cm vz. 30火炮"
  CZE_artillery_equipment_1_short:0 "8cm vz. 30火炮"
- CZE_artillery_equipment_2:0 "10.5 cm赫鲁比vz. 35火炮"
- CZE_artillery_equipment_3:0 "15 cm野战榴弹炮vzor 37"
+ CZE_artillery_equipment_2:0 "10.5cm赫鲁比vz. 35火炮"
+ CZE_artillery_equipment_3:0 "15cm野战榴弹炮vzor 37"
  
  GER_artillery_equipment_1:0 "18型10.5cm轻型野战榴弹炮"
  GER_artillery_equipment_1_short:0 "10.5cm LeFH 18"
@@ -2069,9 +2071,9 @@
  JAP_artillery_equipment_3:0 "96式15cm火炮"
  
  NOR_artillery_equipment_1:0 "康斯博格 M.27 75mm火炮"
- NOR_artillery_equipment_1_short:0 "M.27 75 mm"
- NOR_artillery_equipment_2:0 "12 cm 重型榴弹炮/m09"
- NOR_artillery_equipment_3:0 "12 cm 重型榴弹炮/m32"
+ NOR_artillery_equipment_1_short:0 "M.27 75mm"
+ NOR_artillery_equipment_2:0 "12cm 重型榴弹炮/m09"
+ NOR_artillery_equipment_3:0 "12cm 重型榴弹炮/m32"
  
  POL_artillery_equipment_1:0 "75mm wz. 31 St火炮"
  POL_artillery_equipment_1_short:0 "75mm wz. 31"
@@ -2084,13 +2086,13 @@
  SWE_artillery_equipment_3:0 "12cm m/14榴弹炮"
  
  AUS_artillery_equipment_1:0 "7.5cm M.15山炮"
- AUS_artillery_equipment_1_short:0 "7.5 cm M.15"
- AUS_artillery_equipment_2:0 "15 cm M. 15重型野战榴弹炮"
- AUS_artillery_equipment_2_short:0 "15 cm schw. FH M.15"
- AUS_artillery_equipment_3:0 "15 cm坎诺自动公司M.15/16型火炮"
+ AUS_artillery_equipment_1_short:0 "7.5cm M.15"
+ AUS_artillery_equipment_2:0 "15cm M. 15重型野战榴弹炮"
+ AUS_artillery_equipment_2_short:0 "15cm schw. FH M.15"
+ AUS_artillery_equipment_3:0 "15cm坎诺自动公司M.15/16型火炮"
  
  HOL_artillery_equipment_1:0 "7.5cm塞得里斯02/04型火炮"
- HOL_artillery_equipment_1_short:0 "7.5 cm M 02/04"
+ HOL_artillery_equipment_1_short:0 "7.5cm M 02/04"
  HOL_artillery_equipment_2:0 "10.5cm 10型火炮"
  HOL_artillery_equipment_3:0 "12cm14型火炮 郎"
  
@@ -2112,7 +2114,7 @@
  CHI_artillery_equipment_3:0 "14/19式150mm火炮"
  
  HUN_artillery_equipment_1:0 "1905型8cm火炮"
- HUN_artillery_equipment_1_short:0 "8 cm M1905"
+ HUN_artillery_equipment_1_short:0 "8cm M1905"
  HUN_artillery_equipment_2:0 "15cm 35M 榴弹炮"
  HUN_artillery_equipment_2_short:0 "15cm 35M"
  HUN_artillery_equipment_3:0 ""21cm 40M 重型加农炮"
