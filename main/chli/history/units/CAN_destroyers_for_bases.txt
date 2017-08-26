@@ -1,0 +1,19 @@
+﻿# Destroyers sent to CAN in exchange for bases
+
+units = {
+						
+	navy = {					
+		name = "第4美洲驱逐舰队"
+		base = 1408
+		location = 1408 # Vancouver, not correct?
+
+		ship = { name = "圣克莱尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA creator = USA } } }		# USS Williams	
+		ship = { name = "尼亚加拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA creator = USA } } }			# USS Thatcher	
+		ship = { name = "汉密尔顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA creator = USA } } }			# USS Kalk	
+		ship = { name = "安纳波利斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA creator = USA } } }		# USS Mackenzie	
+		ship = { name = "哥伦比亚号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA creator = USA } } }			# USS Haraden	
+		ship = { name = "圣克罗伊号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA creator = USA } } }		# USS McCook	
+		ship = { name = "圣弗朗西斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA creator = USA } } }		# USS Bancroft	
+	}
+}
+					

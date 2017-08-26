@@ -1,0 +1,1282 @@
+﻿start_equipment_factor = 0.1
+#####师 Templates #####
+division_template = {
+	name = "步兵师"  	# Standard formation for frontline师s
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "国民警卫队师"  # Standard formation for NG师s through late 1940
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "骑兵师"  	# 1st 骑兵师 only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "机械化骑兵"  	# 7th Cavalry (Mech.)旅, precursor to 1st Armored Div.
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "海军陆战旅" 		# 1st, 2nd 海军陆战旅s, precursors to 1st, 2nd USMC师s
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 2
+}
+division_template = {
+	name = "守备旅"  		# used for island defense (older equipment, lower experience)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+
+
+###### OOB ######
+units = {
+	####### CONUS Theater (CO: Marshall) #######
+	### Carribean Forces ###
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}			
+	division = {			
+		name = "Panama Canal Force"				# CO: Stone
+		location = 7617
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+
+	### 1st Army (CO: Drum)  -- note: Armies only paper organizations in 1939 ###
+	division= {			
+		name = "第7机械化骑兵旅"		
+		location = 6696
+		division_template = "机械化骑兵"
+		start_experience_factor = 0.3
+	}			
+	# I Army Corps (CO: Woodruff) #
+	division= {			
+		name = "第26扬基师"		
+		location = 6732
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第43胜利女神师"		
+		location = 6732
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# II Army Corps (CO: Drum) #
+	division= {			
+		name = "第1红一纵师"		
+		location = 3878
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}			
+	division= {			
+		name = "第27纽约师"		
+		location = 3878
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第44步兵师"		
+		location = 3878
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# III Army Corps (CO: Parsons) #
+	division= {			
+		name = "第28主力师"		
+		location = 6984
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第29蓝灰师"		
+		location = 6984
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+
+
+	### 2nd Army (CO: Ford)  -- note: Armies only paper organizations in 1939 ###
+	# V Army Corps (CO: van Voorhis) #
+	division= {			
+		name = "第5红魔师"		
+		location = 6855
+		division_template = "步兵师"		# forming, Oct-39
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}			
+	division= {			
+		name = "第37七叶树师"		
+		location = 6855
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第38气旋师"		
+		location = 6855
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# VI Army Corps (CO: Ford) #
+	division= {			
+		name = "第6'Sightseeing Sixth'师"		
+		location = 9450
+		division_template = "步兵师"		# forming, Oct-39
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}			
+	division= {			
+		name = "第32红箭师"		
+		location = 9450
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第33金十字师"		
+		location = 9450
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+
+
+	### 3rd Army (CO: Brees)  -- note: Armies only paper organizations in 1939 ###
+	# IV Army Corps (CO: Embick) #
+	division = {			
+		name = "第30老山胡桃师"		
+		location = 12384
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第31迪克西师"		
+		location = 12384
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# VIII Army Corps (CO: Brees) #
+	division= {			
+		name = "第2印地安师"		
+		location = 12782
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}			
+	division= {			
+		name = "第36德州师"		
+		location = 12782
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第45雷鸟师"		
+		location = 12782
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第1骑兵 'The 1st Team'师"		
+		location = 12782
+		division_template = "骑兵师"
+		start_experience_factor = 0.3
+	}			
+					
+	### 4th Army (CO: DeWitt)  -- note: Armies only paper organizations in 1939 ###
+	# VII Army Corps (CO: Bishop) #
+	division= {			
+		name = "第34红牛师"		
+		location = 12586
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第35圣达菲师"		
+		location = 12586
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# IX Army Corps (CO: DeWitt) #
+	division= {			
+		name = "第3马恩河岩师"		
+		location = 9671
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}			
+	division = {			
+		name = "第40阳光师"		
+		location = 9671
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "第41日落师"		
+		location = 9671
+		division_template = "国民警卫队师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+					
+	### Fleet Marine Force (CO: Holcomb)  ###
+	division= {			
+		name = "第1海军陆战旅"		
+		location = 6846
+		division_template = "海军陆战旅"
+		start_experience_factor = 0.3
+	}			
+	division= {			
+		name = "第2海军陆战旅"		
+		location = 1562
+		division_template = "海军陆战旅"
+		start_experience_factor = 0.3
+	}			
+
+	####### Pacific Theater	#######
+	### Alaska Defense Command ###
+	division = {			
+		name = "阿拉斯加守备师"		
+		location = 13091
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "阿图岛守备旅"		
+		location = 13067
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+			
+	### Hawaiian Department	(CO: Herron) ###
+	division = {			
+		name = "夏威夷师"		
+		location = 4180
+		division_template = "国民警卫队师"		# older equipment, less training than NG师
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# North Pacific Defenses #
+	division= {				
+		name = "中途岛守备旅"			
+		location = 13052
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	division= {				
+		name = "威克岛守备旅"			
+		location = 13047
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	division= {				
+		name = "关岛守备旅"			
+		location = 12140
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	
+	# South Pacific Defenses #
+	division= {			
+		name = "圣诞岛守备旅"		
+		location = 13048
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "贾维斯岛守备旅"		
+		location = 13049
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "巴尔米拉守备旅"		
+		location = 13050
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "凤凰岛守备旅"		
+		location = 13053
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "约翰逊岛守备旅"		
+		location = 13051
+		division_template = "守备旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+
+	### U.S. Army Forces in the Far East ###		
+	division = {										# CO: Grant
+		name = "菲律宾师"			
+		location = 10265
+		division_template = "步兵师"		# older equipment, less training than NG师
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}				
+
+
+	####### NAVAL UNITS #######
+	##### PACIFIC FLEET #####
+	##### Battle Force (CO: Richardson) #####
+	### San Pedro (Los Angeles) Force ###
+	navy = {					
+		name = "第1战舰编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "内华达号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "宾夕法尼亚级" } } }
+		ship = { name = "亚利桑那号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "宾夕法尼亚级" } } }
+		ship = { name = "宾夕法尼亚号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "宾夕法尼亚级" } } }
+	}					
+	navy = {					
+		name = "第2战舰编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "俄克拉何马号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "宾夕法尼亚级" } } }
+		ship = { name = "田纳西号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+		ship = { name = "加利福尼亚号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+	}					
+	navy = {					
+		name = "第3战舰编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "新墨西哥号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+		ship = { name = "密西西比号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+		ship = { name = "爱达荷号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+	}					
+	navy = {					
+		name = "第4战舰编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "科罗拉多号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+		ship = { name = "西弗吉尼亚号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+		ship = { name = "马里兰号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA version_name = "新墨西哥级" } } }
+	}				
+	navy = {					
+		name = "第1航母编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "列克星敦号" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
+			air_wings = {
+				cv_fighter_equipment_1 =  { owner = "USA" amount = 10 }				# F3F Grumman
+				cv_CAS_equipment_1 =  { owner = "USA" amount = 25 }					# SB2U Vindicator
+				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }			# TBD Devastator
+			}
+		}
+		ship = { name = "萨拉托加号" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } } 
+			air_wings = {
+				cv_fighter_equipment_1 =  { owner = "USA" amount = 10 }				# F3F Grumman
+				cv_CAS_equipment_1 =  { owner = "USA" amount = 25 }					# SB2U Vindicator
+				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 10 }			# TBD Devastator
+			}
+		}
+	}					
+	navy = {					
+		name = "第8巡洋舰编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "布鲁克林号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+		ship = { name = "费城号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+		ship = { name = "大草原号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+		ship = { name = "纳什维尔号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+	}					
+	navy = {					
+		name = "第9巡洋舰编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "凤凰号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+		ship = { name = "博伊西号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+		ship = { name = "火奴鲁鲁号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+		ship = { name = "圣路易斯号" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }				
+	}					
+	### San Diego Force ###
+	navy = {					
+		name = "第2航母编队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "企业号" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USA version_name = "约克镇级" } }
+			air_wings = {
+				cv_fighter_equipment_1 =  { owner = "USA" amount = 12 }				# F3F Grumman
+				cv_CAS_equipment_1 =  { owner = "USA" amount = 32 }					# SB2U Vindicator
+				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 12 }			# TBD Devastator
+			}
+		}
+		ship = { name = "约克号" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USA version_name = "约克镇级" } }
+			air_wings = {
+				cv_fighter_equipment_1 =  { owner = "USA" amount = 12 }				# F3F Grumman
+				cv_CAS_equipment_1 =  { owner = "USA" amount = 32 }					# SB2U Vindicator
+				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 12 }			# TBD Devastator
+			}
+		}
+	}					
+	navy = {					
+		name = "第3巡洋舰编队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "协合号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "奥马哈号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "密尔沃基" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "辛辛那提号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+	}					
+	### 驱逐舰舰队1 (CO: Holmes) ###				
+	navy = {					
+		name = "第1驱逐舰中队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "罗利号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "菲尔普斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 1st Destroyer Division				
+		ship = { name = "杜威号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "胡尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "麦克多诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "沃登号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 2nd Destroyer Division				
+		ship = { name = "法拉格特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "山谷号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "莫纳汉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "艾尔温号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+	}					
+	navy = {					
+		name = "第2驱逐舰中队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "波特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 3rd Destroyer Division				
+		ship = { name = "马汉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "德雷顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "拉姆森号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "弗卢塞尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 4th Destroyer Division				
+		ship = { name = "库欣号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "帕金斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "史密斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "普雷斯顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+	}					
+	navy = {					
+		name = "第3驱逐舰中队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "克拉克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 5th Destroyer Division				
+		ship = { name = "瑞德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "科宁厄姆号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "卡森号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "唐斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 6th Destroyer Division				
+		ship = { name = "卡明斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "凯斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "肖号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "塔克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+	}					
+	navy = {					
+		name = "第9驱逐舰中队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "吉姆号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 17th Destroyer Division				
+		ship = { name = "萨默斯号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "温斯洛号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		ship = { name = "沃灵顿号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		# 18th Destroyer Division				
+		ship = { name = "桑普森号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "戴维斯号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "朱厄特号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+	}					
+	### 驱逐舰舰队2 (CO: Pye) ###				
+	navy = {					
+		name = "第4驱逐舰舰队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "底特律号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "塞尔弗里奇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 7th Destroyer Division				
+		ship = { name = "巴格莱号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "布卢号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "赫尔姆号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "亨利号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		# 8th Destroyer Division				
+		ship = { name = "莫格弗号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "拉尔夫塔尔博特号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "帕特森号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "贾维斯号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+	}					
+	navy = {					
+		name = "第6驱逐舰中队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "鲍尔奇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 11th Destroyer Division				
+		ship = { name = "格里德利号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "克雷文号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "莫里号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "麦考尔号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		# 12th Destroyer Division				
+		ship = { name = "邓拉普号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "范宁号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "贝纳姆号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "埃利特号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+	}					
+	navy = {					
+		name = "第7驱逐舰中队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "莫菲特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA version_name = "法拉格特级" } } }
+		# 24th Destroyer Division				
+		ship = { name = "赞恩号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "瓦斯穆特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "特雷弗号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "佩里号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 28th Destroyer Division				
+		ship = { name = "钱德勒号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "索萨德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "霍维号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "长号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}					
+	navy = {					
+		name = "第8驱逐舰中队"				
+		base = 1562
+		location = 1562 # San Diego
+		# 9th Destroyer Division				
+		ship = { name = "术语号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "斯特瑞特号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "威尔逊号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		# 10th Destroyer Division				
+		ship = { name = "梅兰号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+	}
+	navy = {					
+		name = "第19驱逐舰分队"				
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "拉特伯恩号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "塔尔博特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "沃特斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "登特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}	
+	# Separate DESRONS #
+	navy = {					
+		name = "第31驱逐舰中队"				
+		base = 9671
+		location = 9671 # San Francisco
+		ship = { name = "麦克利什号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 62nd Destroyer Division				
+		ship = { name = "麦考密克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "斯特蒂文特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "奥弗顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "班布里奇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 83rd Destroyer Division				
+		ship = { name = "汉弗莱斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "国王号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "金沙号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "劳伦斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}					
+	navy = {					
+		name = "第32驱逐舰中队"				
+		base = 9671
+		location = 9671 # San Francisco
+		ship = { name = "利号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 64th Destroyer Division				
+		ship = { name = "威克斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "菲利普号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "伊万斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases	
+		ship = { name = "特威格斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		# 65th Destroyer Division				
+		ship = { name = "布坎南号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }	# To ENG, DDs for Bases		
+		ship = { name = "亚伦沃德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }	# To ENG, DDs for Bases		
+		ship = { name = "黑尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "克劳宁希尔德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }	# To ENG, DDs for Bases		
+	}	
+	
+	### 侦察编队 (CO: Andrews) ###
+	navy = {					
+		name = "侦察编队"				
+		base = 9814
+		location = 9814 # Los Angeles
+		ship = { name = "孟菲斯号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		# 巡洋舰编队4 			
+		ship = { name = "北安普顿号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "彭萨科拉号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "盐湖城号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
+		# 巡洋舰编队5 			
+		ship = { name = "芝加哥号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "切斯特号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "路易斯维尔" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }					
+		ship = { name = "波特兰号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+		# 巡洋舰编队6 		
+		ship = { name = "新奥尔良号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+		ship = { name = "阿斯托利亚号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+		ship = { name = "明尼阿波利斯号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+		ship = { name = "印第安纳波利斯号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+	}					
+
+	### SUBMARINE FORCE (CO: Friedell) ###
+	navy = {					
+		name = "潜艇基地守备编队"			
+		base = 1562
+		location = 1562 # San Diego
+		ship = { name = "里士满号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "利奇菲尔德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }	
+	}
+	navy = {					
+		name = "第4潜艇中队"			# CO: Scanland		
+		base = 4180
+		location = 4180 # Pearl Harbor, HI
+		# 7th Submarine Division				
+		ship = { name = "S-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-23" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-34" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-35" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		# 12th Submarine Division				
+		ship = { name = "淘金者号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		ship = { name = "角鲸号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		ship = { name = "鹦鹉螺号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		ship = { name = "海豚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		# 13th Submarine Division				
+		ship = { name = "鲨鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+		ship = { name = "抹香鲸号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		ship = { name = "墨鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		ship = { name = "活塞号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+		ship = { name = "波拉克号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+		ship = { name = "鲳鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+	}					
+	navy = {					
+		name = "第6潜艇中队"			# CO: Steinwachs		
+		base = 1562
+		location = 1562 # San Diego
+		# 15th Submarine Division				
+		ship = { name = "鲑鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "西尔号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "飞鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "鲷鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "黄貂鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "鲟鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		# 16th Submarine Division				
+		ship = { name = "孔石鲈号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "秋刀鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "旗鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "杜父鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "角鲨号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		ship = { name = "剑鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA version_name = "三文鱼级" } } }
+		# 2nd Experimental Submarine Division				
+		ship = { name = "S-27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+	}					
+	
+	### PACIFIC RESERVES ###
+	navy = {					
+		name = "太平洋储备舰队"			# Decommissioned ships docked in San Diego				
+		base = 1562
+		location = 1562 # San Diego
+		# 35th Destroyer Division				
+		ship = { name = "施莱号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "雏鸟号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "威廉姆斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To CAN, DDs for Bases		
+		ship = { name = "克兰号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 36th Destroyer Division				
+		ship = { name = "吉尔地号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "肯尼森号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "沃德号号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "撒切尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To CAN, DDs for Bases		
+		# 37th Destroyer Division				
+		ship = { name = "克罗斯比号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "麦肯齐号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To CAN, DDs for Bases		
+		ship = { name = "韦尔斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "奥利克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		# 38th Destroyer Division				
+		ship = { name = "麦克拉纳汉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "爱德华兹号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "劳布号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases	
+		ship = { name = "舒布里克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		# 39th Destroyer Division				
+		ship = { name = "贝利号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "斯韦齐号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "米德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases	
+		# 1st Mobile Target  Division				
+		ship = { name = "多尔西号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "埃利奥特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "伯格斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}					
+
+
+	##### ATLANTIC FLEET #####
+	navy = {							
+		name = "特勤中队"		# CO: Wilcox			
+		base = 7617
+		location = 7617 # Canal Zone
+		ship = { name = "塔特纳尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "J弗莱德塔尔博特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}
+	
+	navy = {					
+		name = "40-T中队"			# Historically based in France	
+		base = 6732 
+		location = 6732 # Boston
+		ship = { name = "特伦顿号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "迪克森号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "赫伯特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}		
+	
+	##### Atlantic Squadron (CO: Ellis) #####
+	navy = {					
+		name = "大西洋中队"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "游侠号" definition = carrier equipment = { carrier_2 = { amount = 1 owner = USA } } 
+			air_wings = {
+				cv_fighter_equipment_1 =  { owner = "USA" amount = 18 }				# F3F Grumman
+				cv_CAS_equipment_1 =  { owner = "USA" amount = 18 }					# SB2U Vindicator
+				cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 18 }			# TBD Devastator
+			}
+		}
+		# 战舰编队5 #				
+		ship = { name = "阿肯色号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "纽约号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "得克萨斯号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }				
+		# Cruisers #
+		ship = { name = "奥古斯塔号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "文森斯号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+	}					
+	navy = {					
+		name = "第7巡洋舰编队"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "威奇托号" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = USA } } }			
+		ship = { name = "旧金山号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+		ship = { name = "塔斯卡卢萨号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+		ship = { name = "昆西号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "波特兰级" } } }
+	}					
+	navy = {					
+		name = "第10驱逐舰中队"				
+		base = 788
+		location = 788 # Norfolk
+		ship = { name = "迪凯特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 21st Destroyer Division				
+		ship = { name = "鲁本·詹姆斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "戈夫号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "巴里号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "霍普金斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 22nd Destroyer Division				
+		ship = { name = "费尔法克斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "利里号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "申克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 27th Destroyer Division				
+		ship = { name = "布鲁姆号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "博里号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "辛普森号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "特拉克斯顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 29th Destroyer Division				
+		ship = { name = "獾号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "雅各伯琼斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "迪克森号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "赫伯特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 30th Destroyer Division				
+		ship = { name = "巴比特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "克拉克斯顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "汉密尔顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "罗珀号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}
+	
+	# Independent Squadrons #
+	navy = {					
+		name = "第12驱逐舰中队"				
+		base = 3878
+		location = 3878 # New York
+		# 25th Destroyer Division				
+		ship = { name = "西姆斯号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "安德森号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+		ship = { name = "哈曼号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = USA } } }
+	}					
+	navy = {					
+		name = "第30驱逐舰中队"				
+		base = 6845 
+		location = 6845 # Philadelphia
+		ship = { name = "吉尔默号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 60th Destroyer Division				
+		ship = { name = "杜邦号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "博纳多号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "埃利斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "科尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 61st Destroyer Division				
+		ship = { name = "塔贝尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "亚纳尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "厄普舍号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "格里尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}					
+	navy = {					
+		name = "第41驱逐舰中队"				
+		base = 6845 
+		location = 6845 # Philadelphia
+		ship = { name = "达拉斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 82nd Destroyer Division				
+		ship = { name = "哈特菲尔德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "布鲁克斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "福克斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "凯恩号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 66th Destroyer Division				
+		ship = { name = "布雷肯里奇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "巴尼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "布莱克利号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "比德尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}					
+
+	### ATLANTIC SUBMARINES ###
+	navy = {					
+		name = "第2潜艇中队"			# CO: Edwards		
+		base = 9832 
+		location = 9832 # New London, CT
+		# 4th Submarine Division			
+		ship = { name = "R-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		# 8th Submarine Division			
+		ship = { name = "S-21" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-29" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-30" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		# 1st Experimental Submarine Division			
+		ship = { name = "S-20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-22" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+	}	
+	navy = {					
+		name = "第3潜艇中队"			# CO: Picking	
+		base = 7617
+		location = 7617 # Canal Zone
+		# 11th Submarine Division			
+		ship = { name = "S-42" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-46" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-47" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+	}					
+
+
+	### RESERVES ###
+	navy = {					
+		name = "大西洋后备舰队"		# Decommissioned ships docked in Philadelphia					
+		base = 6845 
+		location = 6845 # Philadelphia
+		# 16th Destroyer Division				
+		ship = { name = "艾伦号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }	
+		ship = { name = "康威号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases
+		ship = { name = "康纳号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "斯托克顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		# 20th Destroyer Division				
+		ship = { name = "西格妮号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "鲁滨孙号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "戈尔德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "蒂尔曼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		# 23th Destroyer Division				
+		ship = { name = "考厄尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "马多克斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "富特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "考克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To CAN, DDs for Bases		
+		# 31st Destroyer Division				
+		ship = { name = "霍普韦尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "托马斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "哈拉登号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To CAN, DDs for Bases		
+		ship = { name = "阿博特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases	
+		# 32nd Destroyer Division				
+		ship = { name = "多伦号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "萨特利号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		# To ENG, DDs for Bases		
+		ship = { name = "梅森号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases	
+		ship = { name = "埃布尔·P·厄普舍号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }	# To ENG, DDs for Bases		
+		ship = { name = "狩猎号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases	
+		# 33rd Destroyer Division				
+		ship = { name = "韦尔伯恩C木" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }	# To ENG, DDs for Bases		
+		ship = { name = "布兰克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "赫恩登号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "麦库克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To CAN, DDs for Bases		
+		# 34th Destroyer Division				
+		ship = { name = "麦克卡拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "罗杰斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }			# To ENG, DDs for Bases		
+		ship = { name = "诺亚号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "班克罗夫特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# Experimental Division				
+		ship = { name = "达尔格伦号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}					
+	navy = {					
+		name = "储备潜艇中队"			# Decommissioned ships docked in Philadelphia	
+		base = 6845 
+		location = 6845 # Philadelphia
+		# 1st Submarine Division			
+		ship = { name = "O-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "O-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "O-4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "O-6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "O-7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "O-8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "O-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "O-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		# 2nd Submarine Division			
+		ship = { name = "R-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-19" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "R-20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		# 3rd Submarine Division			
+		ship = { name = "S-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-33" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-48" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		# 9th Submarine Division			
+		ship = { name = "梭鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		ship = { name = "鲈鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+		ship = { name = "博尼塔号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA version_name = "梭鱼级" } } }
+	}					
+
+	##### 亚洲舰队 (CO: Hart) #####
+	navy = {					
+		name = "亚洲舰队"				
+		base = 10265
+		location = 10265 # Manilla
+		ship = { name = "休斯敦号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }				
+		ship = { name = "马布尔黑德号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		# 13th Destroyer Division				
+		ship = { name = "保罗·琼斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "奥尔登号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "约翰D爱德华兹号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "惠普尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "埃兹尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 14th Destroyer Division				
+		ship = { name = "巴克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "帕罗特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "布尔默号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "斯图尔特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		# 15th Destroyer Division				
+		ship = { name = "教皇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "皮尔里号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "皮尔斯伯里号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+		ship = { name = "约翰福特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
+	}					
+	navy = {					
+		name = "第5潜艇中队"				
+		base = 10265
+		location = 10265 # Manilla
+		# 10th Submarine Division				
+		ship = { name = "S-36" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-37" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-38" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-39" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-40" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		ship = { name = "S-41" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+		# 14th Submarine Division				
+		ship = { name = "鼠海豚号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }			
+		ship = { name = "派克号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+		ship = { name = "海鲢号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+		ship = { name = "鲈鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+		ship = { name = "梭鱼号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+		ship = { name = "大鯧鰺号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = USA } } }
+	}					
+}					
+			
+			
+air_wings = {
+	##### U.S. Army Air Force (USAAF) (CO: Emmo) #####
+	378 = {																# California
+		### 1st USAAF Wing (CO: Fickel) ###
+		fighter_equipment_1 =  { owner = "USA" amount = 72 }			# 20th Pursuit Group -- P-36As
+		strat_bomber_equipment_1 = { owner = "USA" amount = 36 }		# 7th Bombardment Group -- B-17s
+		tac_bomber_equipment_1 = { owner = "USA" amount = 48 }			# 17th Bombardment Group -- B-23s
+		tac_bomber_equipment_0 = { owner = "USA" amount = 36 }			# 19th Bombardment Group -- B-18s
+		### USN Patrol Wings ###
+		nav_bomber_equipment_1 =  { owner = "USA" amount = 36 }			# Naval Patrol Wing 1 -- PBY-1
+		cv_fighter_equipment_1 =  { owner = "USA" amount = 12 }			# 2nd/I Marine Air Wing -- F3F Grumman
+		cv_CAS_equipment_1 =  { owner = "USA" amount = 12 }				# 2nd/II Marine Air Wing -- SB2U Vindicator
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 12 }		# 2nd/III Marine Air Wing -- TBD Devastator
+	}
+	362 = { 															# Virginia
+		### 2nd USAAF Wing (CO: Krogstad) ###
+		heavy_fighter_equipment_1 =  { owner = "USA" amount = 168 }		# 1st Pursuit Group -- P-35s
+				# 8th Pursuit Group -- P-35s
+		strat_bomber_equipment_1 = { owner = "USA" amount = 36 }		# 9th Bombardment Group -- B-17s
+		tac_bomber_equipment_0 = { owner = "USA" amount = 48 }			# 2nd Bombardment Group -- B-18s
+		### USN Patrol Wings ###
+		nav_bomber_equipment_1 =  { owner = "USA" amount = 36 }			# Naval Patrol Wing 5 -- PBY-1
+		cv_fighter_equipment_1 =  { owner = "USA" amount = 12 }			# 1st/I Marine Air Wing -- F3F Grumman
+		cv_CAS_equipment_1 =  { owner = "USA" amount = 12 }				# 1st/II Marine Air Wing -- SB2U Vindicator
+		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 12 }		# 1st/II Marine Air Wing -- TBD Devastator
+	}
+	371 = { 															# Louisiana
+		### 3rd USAAF Wing (CO: Martin) ###
+		CAS_equipment_2 = { owner = "USA" amount = 63 }					# 3rd Attack Group -- A-20s
+	}
+
+	629 = { 															# Hawaii
+		### 18th Composite Wing (CO: Frank) ###
+		fighter_equipment_1 =  { owner = "USA" amount = 72 }			# 18th Pursuit Group -- P-36As
+		tac_bomber_equipment_0 = { owner = "USA" amount = 36 }			# 5th/I Composite Group -- B-18s
+		CAS_equipment_1 = { owner = "USA" amount = 21 }					# 5th/II Composite Group -- A-17s
+		### USN Patrol Wings ###
+		nav_bomber_equipment_1 =  { owner = "USA" amount = 36 }			# Naval Patrol Wing 2 -- PBY-1
+	}
+
+	685 = { 															# Canal Zone
+		### 19th Composite Wing (CO: Dargue) ###
+		fighter_equipment_0 =  { owner = "USA" amount = 48 }			# 16th Pursuit Group -- P-26As
+		tac_bomber_equipment_0 = { owner = "USA" amount = 36 }			# 6th/I Composite Group -- B-18s
+		CAS_equipment_1 = { owner = "USA" amount = 21 }					# 6th/II Composite Group -- A-17s
+		### USN Patrol Wings ###
+		nav_bomber_equipment_1 =  { owner = "USA" amount = 36 }			# Naval Patrol Wing 3 -- PBY-1
+	}
+
+#	327 = { 															# Luzon, PHI
+#		### Philippine Composite Wing (CO: ) ###
+#		fighter_equipment_0 =  { owner = "USA" amount = 72 }			# 4th/I Composite Group -- P-26As
+#		tac_bomber_equipment_0 = { owner = "USA" amount = 12 }			# 4th/II Composite Group -- B-18s
+#	}
+
+	386 = { 															# Washington (state)													
+		### USN Patrol Wings ###
+		nav_bomber_equipment_1 =  { owner = "USA" amount = 30 }			# Naval Patrol Wing 4 -- PBY-1
+	}
+}
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 6
+		progress = 0.1
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = cv_fighter_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 100
+	}
+
+	### Under Construction Notes ###
+	# CV: Wasp class variant (x1) ("USS Wasp")
+	add_equipment_production = {
+		equipment = {
+			type = carrier_2
+			creator = "USA"
+			version_name = "黄蜂级"
+		}
+		requested_factories = 3
+		progress = 0.60
+		amount = 1
+	}
+	# CL: Brooklyn class (x1) ("USS Helena")
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_2
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.95
+		amount = 1
+	}
+	# DD: Sims class (x9) ("USS Trippe" "USS Rhind" "USS Stack" "USS O'Brien" "USS Walke" "USS Morris" "USS Roe" "USS Wainwright" "USS Buck")
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "USA"
+		}
+		requested_factories = 6
+		progress = 0.80
+		amount = 9
+	}
+	# SS: Salmon class variant (x3) ("USS Sealion" "USS Searaven" "USS Seawolf")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "USA"
+			version_name = "三文鱼级"
+		}
+		requested_factories = 4
+		progress = 0.70
+		amount = 3
+	}
+}
+#####################

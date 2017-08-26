@@ -1,0 +1,223 @@
+﻿division_template = {
+	name = "步兵师" 				# Triangular Infantry Division
+	# Prior to 1940 mobilization = 3rd, 4th, 5th, 9th, 10, 13th;
+	# 	6th, 7th, 11th, and 12th had 2 regiments; 14th had 1 regiment
+	# Note: sources have all Greek regular infantry as mountain-trained
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "山地师" 				# Square Infantry Division
+	# Prior to 1940 mobilization = 1st, 2nd, 8th
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		mountaineers = { x = 3 y = 0 }
+		mountaineers = { x = 3 y = 1 }
+		mountaineers = { x = 3 y = 2 }
+	}
+}
+division_template = {
+	name = "骑兵师" 			# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Motorized recon inf bn
+	}
+}
+
+units = {
+	######## Ellinikó Genikó Epiteleío ########
+	division = {
+		name = "第5师"
+		location = 12058
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "第8师"
+		location = 3914
+		division_template = "山地师" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "骑兵师"
+		location = 11818
+		division_template = "骑兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# A Sóma Stratoú
+	division = {
+		name = "第2师"
+		location = 4109
+		division_template = "山地师" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第3师"
+		location = 4193
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "第4师"
+		location = 7096
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# B Sóma Stratoú
+	division = {
+		name = "第1师"
+		location = 863
+		division_template = "山地师" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "第9师"
+		location = 966
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+
+	# C Sóma Stratoú
+	division = {
+		name = "第6师"
+		location = 3526
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "第10师"
+		location = 10163
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "第11师"
+		location = 11818
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# D Sóma Stratoú
+	division = {
+		name = "第7师"
+		location = 9791
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# E Sóma Stratoú
+	division = {
+		name = "第12师"
+		location = 11774
+		division_template = "步兵师" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	##### NAVAL UNITS #####
+	navy = {					
+		name = "皇家海军编队"				
+		base = 4109
+		location = 4109 # Athens
+		ship = { name = "乔治艾夫号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GRE } } }				
+		ship = { name = "埃利号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GRE } } }				
+		# Destroyer Flotilla
+		ship = { name = "雄鹰号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "隼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "狮子号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "黑豹号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "科普里奥迪斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "水润级" } } }
+		ship = { name = "奇特拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "水润级" } } }
+		ship = { name = "普萨拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "水润级" } } }
+		ship = { name = "斯派采号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "水润级" } } }
+	}					
+	navy = {					
+		name = "潜艇舰队"				
+		base = 4109 
+		location = 4109 # Athens
+		ship = { name = "凯松尼斯号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "帕帕尼科里斯" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "变形虫号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "尼利亚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		 
+		ship = { name = "第三号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "格拉夫科斯号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+	}					
+
+}
+
+##### No Air units -- Greece did not start to modernize air force until 1937 #####
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.56
+		efficiency = 100
+	}
+}

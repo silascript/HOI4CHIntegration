@@ -1,0 +1,1048 @@
+﻿division_template = {
+	name = "步兵师"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "骑兵旅"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "坦克旅"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "海外警备队"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	#Aldershot Command
+	division= {	
+		name = "第1步兵师"
+		location = 9458
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第2步兵师"
+		location = 9458
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}
+	#Scottish Command
+	division= {	
+		name = "第51高地步兵师"
+		location = 3273
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第52低地步兵师"
+		location = 9392
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Northern Command
+	division= {	
+		name = "第5骑兵旅"
+		location = 11297
+		division_template = "骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第5步兵师"
+		location = 351
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第50诺森伯兰机动师"
+		location = 9397
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第49西赖丁步兵师"
+		location = 11218
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Eastern Command
+	division= {	
+		name = "第4步兵师"
+		location = 11253
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第44六郡步兵师"
+		location = 11221
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第54东安格利亚步兵师"
+		location = 3287
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Western Command	
+	division= {	
+		name = "第6骑兵旅"
+		location = 407
+		division_template = "骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第42东兰开夏步兵师"
+		location = 6318
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第53威尔士步兵师"
+		location = 311
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第55西兰开夏步兵师"
+		location = 6384
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Southern Command
+	division= {	
+		name = "皇家坦克团"
+		location = 9239
+		division_template = "坦克旅"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第3步兵师"
+		location = 13070
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第43威塞克斯步兵师"
+		location = 3369
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "第48南内陆步兵师"
+		location = 6351
+		division_template = "步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	### Middle East Command ###
+	#Sudan
+	division= {	
+		name = "苏丹防卫警备队"
+		location = 12806
+		division_template = "海外警备队"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+
+	}
+	#Palestine & Transjordan
+	division= {	
+		name = "耶路撒冷与利达区警备队"
+		location = 4206
+		division_template = "海外警备队"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	#Aden
+	division= {	
+		name = "亚丁防卫警备队"
+		location = 12821
+		division_template = "海外警备队"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	#Egypt
+	division= {	
+		name = "开罗武装警备队"
+		location = 7011
+		division_template = "海外警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "苏伊士运河守备旅"
+		location = 1155
+		division_template = "海外警备队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+	division= {	
+		name = "骑兵旅(埃及)"
+		location = 4076
+		division_template = "骑兵旅"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	#Gibraltar
+	division= {	
+		name = "直布罗陀武装守备队"
+		location = 4135
+		division_template = "海外警备队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+	
+	#Malta
+	division= {	
+		name = "马耳他警备队"
+		location = 12003
+		division_template = "海外警备队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+	
+	###East Africa
+	division= {	
+		name = "东非武装警备队"
+		location = 1939
+		division_template = "海外警备队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	  
+		name = "南非武装警备队"
+		location = 12911
+		division_template = "海外警备队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "北罗得西亚警备队"
+		location = 1939
+		division_template = "海外警备队"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.3
+
+	}
+
+	###West Africa
+	division= {	
+		name = "1西非武装警备队"
+		location = 2050
+		division_template = "海外警备队"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+
+	}
+	division= {	  
+		name = "2西非武装警备队"
+		location = 10862 
+		division_template = "海外警备队"			# Colonial militia (lowest equipment and experience)
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+
+	}
+	
+	### Far East Command ###
+	###China
+	division= {	
+		name = "香港武装警备队"
+		location = 10062
+		division_template = "海外警备队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	###Malaya
+	division= {	
+		name = "新加坡要塞警备队"
+		location = 12299
+		division_template = "海外警备队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "槟城要塞警备队"
+		location = 12215
+		division_template = "海外警备队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+	###Ceylon
+	division= {	
+		name = "锡兰武装守备队"
+		location = 7260
+		division_template = "海外警备队"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+	
+
+	
+	##### NAVAL UNITS #####
+	### HOME COMMAND ###
+	navy = {				
+		name = "皇家海军"			
+		base = 11064
+		location = 11064 # Scapa Flow
+		ship = { name = "暴怒号" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "ENG" amount = 9 }
+				cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 12 }
+			}
+		}
+		ship = { name = "纳尔逊号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }			
+		ship = { name = "罗德尼号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "纳尔逊级" } } }				
+		ship = { name = "皇家橡树号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "皇家至尊号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "拉米丽斯号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "胡德号" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG version_name = "海军上将级" } } }	
+		ship = { name = "浅水湾号" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }					
+		ship = { name = "名望号" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }				
+		ship = { name = "诺福克号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }
+		ship = { name = "加尔各答号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "翡翠号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "翡翠级" } } }
+		ship = { name = "企业号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "翡翠级" } } }
+		ship = { name = "佩剑号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "猎人号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		### 6th Destroyer Flotilla
+		ship = { name = "基思号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }
+		# Destroyer Division 11
+		ship = { name = "威尼斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "凡妮莎号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "子爵号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "威塞克斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 12
+		ship = { name = "黄昏号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "快活号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "清醒号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "温莎号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		### 8th Destroyer Flotilla
+		ship = { name = "福克诺号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 15
+		ship = { name = "猎狐犬号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }						# to RCN as Qu'Appelle, 1943	
+		ship = { name = "愤怒号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "无畏号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "福雷斯特号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 16
+		ship = { name = "名人号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "火龙号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "展望号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "财富号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }							# to RCN as Saskatchewan, 1943	
+	}				
+	navy = {				
+		name = "后援舰队"			
+		base = 9458 
+		location = 9458
+		ship = { name = "伊丽莎白女王号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }					
+		ship = { name = "英勇号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }					
+		ship = { name = "弗罗比舍号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "霍金斯号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "卡莱尔号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "柯卢号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		# Reserve Destroyer Division
+		ship = { name = "维特舍德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "野天鹅号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "总督号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "凡尔登号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "虚荣号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+	}						
+	navy = {				
+		name = "海峡分队"			
+		base = 9458 
+		location = 9458 # Portsmouth
+		ship = { name = "勇敢号" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "ENG" amount = 9 }
+				cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 24 }
+			}
+		}
+		ship = { name = "决心号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "复仇号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
+		ship = { name = "谷神星号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "卡拉道克号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "开罗号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		# 5th Destroyer Flotilla
+		ship = { name = "肯彭费尔特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }		# to RCN as Assiniboine, 1939
+		# Destroyer Division 9
+		ship = { name = "艾加斯塔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		ship = { name = "羚羊号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		ship = { name = "热情号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		ship = { name = "黄泉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		# Destroyer Division 10
+		ship = { name = "忠友号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }				
+		ship = { name = "安东尼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		ship = { name = "阿罗号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		ship = { name = "亚马逊号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }		
+	}
+	navy = {				
+		name = "亨伯分队"			
+		base = 11297
+		location = 11297 # Hull
+		### 7th Destroyer Flotilla
+		# Destroyer Division 13
+		ship = { name = "爆发号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "流浪者号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "怀特霍尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "女巫号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 14
+		ship = { name = "真实号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "志愿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "威瑟号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "金刚狼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+	}				
+	navy = {				
+		name = "北方巡逻舰队"	
+		base = 11064 
+		location = 11064 # Scapa Flow
+		# 7th Cruiser Squadron
+		ship = { name = "狄俄墨得斯号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "巨龙号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		# 12th Cruiser Squadron
+		ship = { name = "轻巡号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "加的夫号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "德里号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "达尼丁号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+	}				
+	navy = {				
+		name = "罗塞斯护航舰队"
+		base = 6300
+		location = 6300 # Rosyth
+		# Rosyth Destroyer Division
+		ship = { name = "华勒斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "无畏号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "惠特利号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+	}				
+	navy = {				
+		name = "诺尔舰队"
+		base = 3501
+		location = 3501 # Dover
+		ship = { name = "伦敦号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }
+		ship = { name = "柑香酒号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		# Nore Destroyer Division
+		ship = { name = "坎贝尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "费雯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "渥彻斯特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "伍斯顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "猎狼犬号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		### 14th Destroyer Flotilla
+		ship = { name = "科德林顿号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }
+		# Destroyer Division 27
+		ship = { name = "蛇怪号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "猎犬号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "北风神号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "斗牛犬号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		# Destroyer Division 28
+		ship = { name = "布兰奇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "博阿迪西亚号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "无耻号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "辉煌号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }
+	}				
+	navy = {				
+		name = "朴茨茅斯舰队"
+		base = 9458 
+		location = 9458 # Portsmouth
+		ship = { name = "萨福克号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }	
+		### 9th Destroyer Flotilla
+		# Destroyer Division 17
+		ship = { name = "斯卡特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "萨拉丁号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "弯刀号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "红玛瑙号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 18
+		ship = { name = "伏击号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }
+		ship = { name = "温彻斯特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+	}				
+	navy = {				
+		name = "西部航线舰队"
+		base = 540
+		location = 540 # Plymouth
+		# Western Approaches Destroyer Division
+		ship = { name = "蒙特罗斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "鲁莽号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "情人号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		ship = { name = "织女号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "西敏寺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# 11th Destroyer Flotilla
+		ship = { name = "麦凯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 21
+		ship = { name = "征服者号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "威诺思号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "沃波尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "切尔西号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 22
+		ship = { name = "全能号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "维米拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "旋风号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "沃里克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+	}				
+	navy = {				
+		name = "北大西洋舰队"
+		base = 4135
+		location = 4135 # Gibraltar
+		ship = { name = "科伦坡号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "开普敦号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "蚁鴷号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# 13th Destroyer Flotilla
+		ship = { name = "凯珀尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 25
+		ship = { name = "哨兵号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "沃蒂根号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "快速号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "沃奇曼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 26
+		ship = { name = "道格拉斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "活跃号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "威沙特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "摔跤手号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+	}				
+	navy = {				
+		name = "第2潜艇舰队"			
+		base = 11064 
+		location = 11064 # Scapa Flow
+		# Submarine Division 21
+		ship = { name = "奥克斯利号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } } 
+		ship = { name = "剑鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }		
+		ship = { name = "鱼贩号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }		
+		ship = { name = "海马号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }	
+		ship = { name = "海星号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }			
+		# Submarine Division 22
+		ship = { name = "H32号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "L26号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "L27号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }		
+	}
+	navy = {				
+		name = "第5潜艇舰队"			
+		base = 9458 
+		location = 9458 # Portsmouth
+		# Submarine Division 51
+		ship = { name = "奥伯龙号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "泰晤士号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }			
+		# Submarine Division 52
+		ship = { name = "L23号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "H28号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "H31号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "H33号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "H34号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "H43号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "H44号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "H49号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "H50号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }	
+	}				
+
+	### MEDITERRANIAN FLEET ###			
+	navy = {				
+		name = "地中海舰队"
+		base = 4076
+		location = 4076 # Alexandria
+		ship = { name = "光荣号" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "ENG" amount = 6 } #historical 9
+				cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 24 } #historical 36
+			}
+		}
+		ship = { name = "厌战号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }			
+		ship = { name = "巴勒姆号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }						
+		ship = { name = "马来亚号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "伊丽莎白女王级" } } }					
+		ship = { name = "德文郡号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }
+		ship = { name = "什罗浦郡号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }
+		ship = { name = "苏塞克斯号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }		
+		ship = { name = "林仙号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "安菲翁级" } } }	
+		ship = { name = "葛拉蒂号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "安菲翁级" } } }
+		ship = { name = "科芬特里号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "沃尔西号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "据点号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		### 1st Destroyer Flotilla
+		ship = { name = "斯图尔特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 1
+		ship = { name = "彗星号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			# to RCN as Restigouche, 1938
+		ship = { name = "十字军号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			# to RCN as Ottawa, 1938	
+		ship = { name = "小天鹅号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			# to RCN as St Laurent, 1937
+		ship = { name = "新月号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			# to RCN as Fraser, 1937
+		# Destroyer Division 2
+		ship = { name = "沃克号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "舰维米号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "布鲁斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }			
+		### 2nd Destroyer Flotilla
+		# Destroyer Division 3
+		ship = { name = "马尔科姆号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "老兵号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "鹪鹩号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		### 3rd Destroyer Flotilla
+		ship = { name = "埃克斯茅斯号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		# Destroyer Division 5
+		ship = { name = "伊莱克特拉号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "日蚀号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "埃斯克号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "快递号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }											# to RCN as Gatineau, 1943	
+		# Destroyer Division 6
+		ship = { name = "遭遇号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "冒险号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "护花使者号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+		ship = { name = "回声号" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }											# to GRE as Navarinon, 1944
+		### 4th Destroyer Flotilla
+		ship = { name = "邓肯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		# Destroyer Division 7
+		ship = { name = "诱饵号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			# to RCN as Kootenay, 1943
+		ship = { name = "保卫者号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }
+		ship = { name = "公爵夫人号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "喜悦号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			
+		# Destroyer Division 8
+		ship = { name = "美味号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "大胆号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "钻石号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }	
+		ship = { name = "戴安娜号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "A/B/C/D级" } } }			# to RCN as Margaree, 1940	
+	}				
+	navy = {				
+		name = "第1潜艇舰队"			
+		base = 4076 
+		location = 4076 # Alexandria
+		# Submarine Division 11
+		ship = { name = "海狮号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }		
+		ship = { name = "鲨鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }		
+		ship = { name = "鲷鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }	
+		ship = { name = "鲑鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }		
+		ship = { name = "海豚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "S级" } } }		
+		# Submarine Division 12
+		ship = { name = "奥特威号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "奥西里斯号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "奥斯瓦尔德号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }			
+	}				
+				
+	### NORTH AND SOUTH AMERICAS ###			
+	navy = {				
+		name = "美洲和西印度舰队"
+		base = 13010
+		location = 13010  # Bermuda
+		ship = { name = "贝里克号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }
+		ship = { name = "约克号号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }	
+		ship = { name = "猎户座号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "翡翠级" } } }
+	}				
+	navy = {				
+		name = "南大西洋舰队"
+		base = 2038
+		location = 2038 # Sierra Leone
+		ship = { name = "海王星号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "翡翠级" } } }	
+		ship = { name = "无畏号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		# Destroyer Division 4
+		ship = { name = "范西塔特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "毒蛇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		ship = { name = "飞龙号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+	}
+	navy = {				
+		name = "南美中队"
+		base = 12960
+		location = 12960 # Falkland Is.
+		ship = { name = "艾希特号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }		
+		ship = { name = "坎伯兰号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }
+		ship = { name = "阿贾克斯号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "翡翠级" } } }	
+	}				
+	navy = {				
+		name = "第3潜艇舰队"			
+		base = 2038 
+		location = 2038 # Sierra Leone
+		# Submarine Division 71
+		ship = { name = "塞文号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }		
+		ship = { name = "克莱德号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }		
+	}
+
+	### FAR EAST ###			
+	navy = {				
+		name = "东印度舰队"
+		base = 10201
+		location = 10201 # Trincomalee, Ceylon
+		ship = { name = "达娜厄号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "德班号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "急件号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+	}				
+	navy = {				
+		name = "中国海舰队"
+		base = 10062
+		location = 10062 # Hong Kong			
+		ship = { name = "鹰号" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } } 
+			air_wings = {
+				cv_fighter_equipment_0 =  { owner = "ENG" amount = 18 }
+				cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 18 }
+			}
+		}
+		ship = { name = "肯特号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }	
+		ship = { name = "康沃尔号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }	
+		ship = { name = "多塞特郡号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "郡级" } } }
+		ship = { name = "加里东号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "卡里普索号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		# Singapore & Hong Kong Division
+		ship = { name = "侦察号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "特涅多斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "塔内号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+		ship = { name = "色雷斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }		
+	}				
+	navy = {				
+		name = "新西兰编队"
+		base = 13056
+		location = 13056 # Fongfale	
+		ship = { name = "阿喀琉斯号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "翡翠级" } } }		# to RNZN 1941
+		ship = { name = "利安德号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "翡翠级" } } }		# to RNZN 1941
+	}				
+	navy = {				
+		name = "第4潜艇舰队"			
+		base = 12299
+		location = 12299 # Singapore
+		ship = { name = "韦斯科特号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }	
+		# Submarine Division 41
+		ship = { name = "奥林巴斯号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }
+		ship = { name = "帕提亚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "希腊海神号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "摄政王号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "罗孚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }		
+		# Submarine Division 42
+		ship = { name = "奥丁号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "俄耳甫斯号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }
+		ship = { name = "鸮号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "潘多拉号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }
+		ship = { name = "英仙座号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }		
+		ship = { name = "凤凰号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }		
+		ship = { name = "彩虹号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+		ship = { name = "轩辕号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R级" } } }	
+	}				
+}
+
+
+air_wings = {
+	### RAF Fighter Command ###
+	129 = { 
+		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 216
+		}
+	}
+	130 = { 
+		### No. 11 Fighter Command, Essex area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 144
+		}
+	}	
+	127 = { 
+		### No. 12 Fighter Command, Nottingham area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 96
+		}
+	}	
+	131 = { 
+		### No. 13 Fighter Command, Newcastle -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 72
+		}
+		
+	}
+	
+	### RAF Bomber Command ###
+	125 = { 
+		### No. 1 Bomber Command, East Anglia area -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 64
+		}
+	}
+	125 = { 
+		### No. 2 Bomber Command, East Anglia area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "ENG" 
+			amount = 48
+		}
+	}
+	126 = { 
+		### No. 3 Bomber Command, Suffolk area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "ENG" 
+			amount = 64
+		}
+	}
+	130 = { 
+		### No. 4 Bomber Command, York area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "ENG" 
+			amount = 80
+		}
+	}
+	128 = { 
+		### No. 5 Bomber Command, Lincoln area -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 64
+		}
+	}
+
+	### RAF Coastal Command
+	130 = { 
+		### No. 16 Coastal Command -- Vickers Vildebeests
+		nav_bomber_equipment_1 = {
+			owner = "ENG" 
+			amount = 24
+		}
+	}
+
+	### RAF Middle East and Africa
+	447 = { 
+		### AHQ Egypt
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 72
+		}
+		tac_bomber_equipment_0 = {
+			owner = "ENG" 
+			amount = 48
+		}
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 64
+		}
+	}
+	454 = { 
+		### RAF Palestine & Iraq
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 32
+		}
+	}
+	659 = { 
+		### RAF Aden
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 24
+		}
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 16
+		}
+	}
+
+	### RAF Far East
+	336 = { 
+		### RAF Far East
+		nav_bomber_equipment_1 = {
+			owner = "ENG" 
+			amount = 24
+		}
+		CAS_equipment_1 = {
+			owner = "ENG" 
+			amount = 64
+		}
+	}
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	### Ongoing Ship Production Jan 1 1936 ###
+	# DD: G/H class (x9) ("HMS Gallant" "HMS Garland" "HMS Gipsy" "HMS Glowworm" "HMS Grafton" "HMS Grenade" "HMS Grenville" "HMS Greyhound" "HMS Griffin")
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ENG" 
+		}
+		requested_factories = 3
+		progress = 0.33
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ENG" 
+		}
+		requested_factories = 3
+		progress = 0.33
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "ENG" 
+		}
+		requested_factories = 3
+		progress = 0.33
+		amount = 3
+	}
+	# SS: S-class variant (x2) ("HMS Seawolf" "HMS Narwhal")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "ENG" 
+			version_name = "S级"
+		}
+		requested_factories = 2
+		progress = 0.50
+		amount = 3
+	}
+	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "ENG" 
+			version_name = "安菲西恩级"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "ENG" 
+			version_name = "安菲西恩级"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "ENG" 
+			version_name = "安菲西恩级"
+		}
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+}
+	#####################

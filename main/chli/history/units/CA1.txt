@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "自由印度临时政府兵团"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		#infantry = { x = 0 y = 2 }
+		#infantry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "第1自由印度师"
+		location = 11260
+		division_template = "自由印度临时政府兵团"
+		bonus = 1
+	}
+	division = {
+		name = "第2自由印度师"
+		location = 11260
+		division_template = "自由印度临时政府兵团"
+		bonus = 1
+	}
+	division = {
+		name = "第3自由印度师"
+		location = 11260
+		division_template = "自由印度临时政府兵团"
+		bonus = 1
+	}
+}
+
+#assign_all_forces_to = "Erwin Rommel"

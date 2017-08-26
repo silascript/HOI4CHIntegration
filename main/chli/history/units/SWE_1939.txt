@@ -1,0 +1,285 @@
+﻿division_template = {
+	name = "步兵师"				# Infantry Division - Planned formation for mobilization of divisions, 1937-1940
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Regiment of 155mm howitzers, 105mm arty
+		engineer = { x = 0 y = 1 }   
+		recon = { x = 0 y = 2 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "骑兵旅"   	# Cavalry Brigade 
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = "装甲旅"  	
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = "混成旅"				# Garrison Force
+	# For reserve and independent regiments, lower experience and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	######## LAND UNITS ########
+	##### Högkvarteret #####
+	# Southern Military District
+	division = {
+		name = "第1步兵师"
+		location = 11160 # Kristianstad
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "南方混成旅"
+		location = 11160 # Kristianstad
+		division_template = "混成旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# Northern Military District
+	division = {
+		name = "第6步兵师"
+		location = 11148 # Osterund
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "北方混成旅"
+		location = 11148 # Osterund
+		division_template = "混成旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# Western Military District
+	division = {
+		name = "第3步兵师"
+		location = 3375 # Skövde
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "西方混成旅"
+		location = 3375 # Skovde
+		division_template = "混成旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# Eastern Military District
+	division = {
+		name = "第4步兵师"
+		location = 6050 #Stockholm
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "骑兵旅"
+		location = 6050 #Stockholm
+		division_template = "骑兵旅"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "奥斯特拉混成旅"
+		location = 6050 #Stockholm
+		division_template = "混成旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# Upper Northern Military District
+	division = {
+		name = "第5步兵师"
+		location = 9186 # Boden
+		division_template = "步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "北诺尔兰混成旅"
+		location = 9186 # Boden
+		division_template = "混成旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "哥特兰混成旅"
+		location = 408 # Gotland
+		division_template = "混成旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	##### NAVAL UNITS #####
+	navy = { 
+		name = "滨海舰队"
+		base = 6050 
+		location = 6050 # Stockholm
+		ship = { name = "德里斯蒂腾号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "老鹰号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "雅各布·巴格号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+	}
+	navy = { 
+		name = "第1编队"
+		base = 11215
+		location = 11215 # Karlskrona
+		ship = { name = "瑞典号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "维多利亚女王号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "古斯塔夫五世号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "哥特兰号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }				
+		# 1. Jagarflottiljen				
+		ship = { name = "克拉斯号角号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "克拉斯乌格拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "伦斯科尔德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "诺登斯科乔尔德号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+	}
+	navy = { 
+		name = "阿兰德海中队"
+		base = 408 
+		location = 408 # Gotland
+		ship = { name = "荣誉号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "勇气号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+	}
+	navy = { 
+		name = "卡尔斯克鲁纳海军编队"
+		base = 11215
+		location = 11215 # Karlskrona
+		ship = { name = "瓦萨号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "阳刚号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+		# 2. Jagarflottiljen				
+		ship = { name = "哥德堡" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SWE } } }		
+		ship = { name = "斯德哥尔摩" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SWE } } }		
+		ship = { name = "马尔默" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SWE } } }		
+		# 1. Ubatsflottiljen				
+		ship = { name = "海龙号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "海龙级" } } }
+		ship = { name = "鹰狮号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "海龙级" } } }
+		ship = { name = "海狼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "海龙级" } } }
+		ship = { name = "海豚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "海龙级" } } }
+		ship = { name = "北切刀号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "海龙级" } } }
+		ship = { name = "野兔号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "海龙级" } } }
+	}
+	navy = { 
+		name = "哥德堡海军编队"
+		base = 383
+		location = 383 # Göteborg
+		ship = { name = "奥斯卡二世号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "法尔吉亚号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }				
+		# 2. Ubatsflottiljen				
+		ship = { name = "海狮号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SWE } } }
+		ship = { name = "斯乔布乔内号" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SWE } } }
+		ship = { name = "鲨鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "萨伦号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "海象号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		# 3. Ubatsflottiljen				
+		ship = { name = "海狸号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "雪貂号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "水獭号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "竞选号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+	}
+}
+
+
+### Flygvapnet ###
+air_wings = {
+	141 = {
+		tac_bomber_equipment_1 = { owner = "SWE" amount = 36 }			# 1. Bombflyggruppen -- Junkers 86K
+		CAS_equipment_1 = { owner = "SWE" amount = 36 }					# 4. Bombflyggruppen -- Hawker Hart
+		fighter_equipment_0 =  { owner = "SWE" amount = 36 }			# 8. Jaktflyggruppen -- Gloster Gladiators
+	}
+	140 = {
+		nav_bomber_equipment_1 =  { owner = "SWE" amount = 12 }			# 2. Torpedflyggruppen -- Heinkel He 115
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SWE"
+		}
+		requested_factories = 1
+		progress = 0.29
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SWE"
+		}
+		requested_factories = 1
+		progress = 0.61
+		efficiency = 100
+	}
+	### Under Construction Notes ###
+	# DD: Göteborg class (x1) ("HMS Karlskrona")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "SWE"
+		}
+		requested_factories = 1
+		progress = 0.30
+		amount = 1
+	}
+	# SS: Sjölejonet class (x1) ("HMS Sjöhunden")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "SWE"
+		}
+		requested_factories = 2
+		progress = 0.30
+		amount = 1
+	}
+}

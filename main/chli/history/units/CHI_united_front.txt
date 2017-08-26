@@ -1,0 +1,49 @@
+﻿division_template = {
+	name = "国民警备队"				# Binary infantry corps (Chinese divisions were brigade-sized units)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "第90军"
+		location = 11913
+		division_template = "国民警备队"
+	}
+	division = {
+		name = "第91军"
+		location = 11913
+		division_template = "国民警备队"
+	}
+	division = {
+		name = "第92军"
+		location = 11913
+		division_template = "国民警备队"
+	}
+	division = {
+		name = "第96军"
+		location = 11913
+		division_template = "国民警备队"
+	}
+	division = {
+		name = "第98军"
+		location = 11913
+		division_template = "国民警备队"
+	}
+	division = {
+		name = "第99军"
+		location = 11913
+		division_template = "国民警备队"
+	}
+	division = {
+		name = "第100军"
+		location = 11913
+		division_template = "国民警备队"
+	}
+}

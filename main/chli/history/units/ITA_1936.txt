@@ -1,0 +1,894 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "步兵师"		
+	# Represents nearly all infantry divisions
+	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
+	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "阿尔卑斯山地师"					# 阿尔卑斯山地师
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "高速机动师" 		# 高速机动师 (Fast Division)
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }		# (elite) Bersaglieri Regiment
+		motorized = { x = 2 y = 1 }
+		light_armor = { x = 3 y = 0 }	# L3/35 Tankette Battaltion
+	}
+	priority = 2
+}
+division_template = {
+	name = "海外守备师"		
+	# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "骑兵旅" 			# 骑兵旅
+	# Note: these groups were gradually expanded to army-level supprt of cavalry rgts, bersaglieri rgts, and tankette bns.
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+
+	##### Commando Superiore Metropolitana #####
+	### Gruppo d'Armata Ovest ###
+	## 1a Armata ##
+	# II Corpo d'Armata #
+	division= {	
+		name = "第4步兵师 里窝那"
+		location = 11721
+		division_template = "步兵师"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第4阿尔卑斯山地师 库内恩斯"
+		location = 11721
+		division_template = "阿尔卑斯山地师"
+		start_experience_factor = 0.3
+	}
+
+	# III Corpo d'Armata #
+	division= {	
+		name = "第3步兵师 拉文纳"
+		location = 11891
+		division_template = "步兵师"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第6步兵师 库内奥"
+		location = 11891
+		division_template = "步兵师"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+
+	# Subordinate to Army
+	division= {	
+		name = "第1骑兵旅"
+		location = 6788
+		division_template = "骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	
+	## 4a Armata ##
+	# Corpo d'Armata Alpina #
+	division= {	
+		name = "第1阿尔卑斯山地师 都灵恩斯"
+		location = 9738
+		division_template = "阿尔卑斯山地师"
+		start_experience_factor = 0.3
+	}
+
+	# I Corpo d'Armata #
+	division= {	
+		name = "第1步兵师 苏佩加"
+		location = 6780
+		division_template = "步兵师"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第2阿尔卑斯山地师 德律但丁"
+		location = 6780
+		division_template = "阿尔卑斯山地师"
+		start_experience_factor = 0.3
+	}
+
+	# IV Corpo d'Armata #
+	division= {	
+		name = "第2步兵师 斯福尔扎 "
+		location = 611
+		division_template = "步兵师"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第7步兵师 卢皮迪托斯卡纳"
+		location = 611
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+	}
+
+	### Gruppo d'Armata Est ###
+	## 2a Armata ##
+	# V Corpo d'Armata #
+	division= {	
+		name = "第9步兵师 帕苏比奥"
+		location = 11735
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	# VI Corpo d'Armata #
+	division= {	
+		name = "第8步兵师 波河"
+		location = 628
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "第3阿尔卑斯山地师 朱莉娅"
+		location = 628
+		division_template = "阿尔卑斯山地师"
+		start_experience_factor = 0.3
+	}
+
+	# Subordinate to Army
+	division= {	
+		name = "第2骑兵旅"
+		location = 6626
+		division_template = "骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	## 6a Armata ##
+	# Corpo d'Armata Celere #
+	division= {	
+		name = "第1高速机动师 萨沃伊尤金"
+		location = 11584
+		division_template = "高速机动师"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第2高速机动师 埃曼努埃莱·菲利伯托"
+		location = 11584
+		division_template = "高速机动师"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第3高速机动师 阿米迪欧王子"
+		location = 11584
+		division_template = "高速机动师"	
+		start_experience_factor = 0.3
+	}
+
+	### Gruppo d'Armata Sud ###
+	# VII Corpo d'Armata #
+	division= {	
+		name = "第20步兵师 弗留利"
+		location = 4159
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		name = "第25步兵师'博洛尼亚'"
+		location = 10074
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+
+	##### Commando Superiore Africa #####
+	# Subordinate to Theatre #
+	division= {	
+		name = "第7师CC.NN. “昔兰尼”"
+		location = 1149
+		division_template = "步兵师"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "第2海外守备师 '利比亚'"
+		location = 1130
+		division_template = "海外守备师"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+		start_equipment_factor = 0.5
+
+	}
+
+	## Armata dell'Africa Orientale Italiana ##
+	# I Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "第26步兵师 'Assietta'"
+		location = 12723
+		division_template = "步兵师"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第30步兵师 '萨瓦'"
+		location = 12723
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "第5阿尔卑斯山地师 '里亚'"
+		location = 12723
+		division_template = "阿尔卑斯山地师"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第4师 CC.NN. '1月3日'"
+		location = 12723
+		division_template = "步兵师"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# II Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "第19步兵师 '圣马塞洛托尔斯'"
+		location = 12766
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "第24步兵师 '格兰萨索'"
+		location = 12766
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "第3师 CC.NN. '4月21日'"
+		location = 12766
+		division_template = "步兵师"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# III Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "第27步兵师 '西拉'"
+		location = 8043
+		division_template = "步兵师"	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "第1师 CC.NN. '3月23日'"
+		location = 8043
+		division_template = "步兵师"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# IV Corpo d'Armata dell'A.O.I. #
+	division= {	
+		name = "第5步兵师 '科塞里亚'"
+		location = 8043
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "第2师CC.NN. '10月28日'"
+		location = 8043
+		division_template = "步兵师"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "第5师CC.NN. '2月1日'"
+		location = 8043
+		division_template = "步兵师"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+
+	}
+
+	# Corpo d'Armata Eritreo #
+	division= {	
+		name = "第1海外守备师 '厄立特里亚'"
+		location = 12766
+		division_template = "海外守备师"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "第2海外守备师 '厄立特里亚'"
+		location = 12766
+		division_template = "海外守备师"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+
+	# Corpo d'Armata Libico #
+	division= {	
+		name = "第29步兵师 '皮埃蒙特'"
+		location = 11014
+		division_template = "步兵师"	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "第1海外守备师 '利比亚'"
+		location = 2063
+		division_template = "海外守备师"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "第1海外守备师 '索马里'"
+		location = 2020
+		division_template = "海外守备师"		# Colonial militia, lower training and equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
+	}
+	division= {	
+		name = "第6师 CC.NN. '台伯河'"
+		location = 2063
+		division_template = "步兵师"		# CCNN militia, lower training and equipment
+		start_experience_factor = 0.2
+	}
+
+
+	##### NAVAL UNITS #####
+	### 1st FLEET ###
+	navy = {					
+		name = "第1海军中队"				
+		base = 11837
+		location = 11837 # Taranto		
+		ship = { name = "扎拉号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "扎拉级" } } }
+		ship = { name = "戈里齐亚号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "扎拉级" } } }
+		ship = { name = "江河号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "扎拉级" } } }
+		# 9a Squadriglia Cacciatorpedindiere
+		ship = { name = "尼科诺索德雷科号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "曼努埃尔佩桑号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "卢卡塔里歌号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "安东尼奥托索尼玛尔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+	}					
+	navy = {					
+		name = "第4海军中队"				
+		base = 11837
+		location = 11837 # Taranto			
+		ship = { name = "路易吉·卡多纳号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "吉萨诺级" } } }
+		ship = { name = "阿曼多·迪亚斯号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "吉萨诺级" } } }
+		ship = { name = "阿尔贝里科巴尔比亚诺号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "吉萨诺级" } } }
+		ship = { name = "阿尔贝托达吉撒诺号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "吉萨诺级" } } }
+		# 6a Squadriglia Cacciatorpedindiere
+		ship = { name = "贝蒂诺·里卡索利号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "尼科泰拉乔瓦尼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+	}					
+	navy = {					
+		name = "第5海军中队"				
+		base = 11837
+		location = 11837 # Taranto			
+		ship = { name = "卡欧杜伊利奥号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }				
+		ship = { name = "安德烈多利亚号" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA } } }				
+		# 7a Squadriglia Cacciatorpedindiere
+		ship = { name = "飞镖号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "箭头号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "闪电号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "斯特拉莱号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		# 8a Squadriglia Cacciatorpedindiere
+		ship = { name = "班尼路号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "霹雳号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "闪电号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "兰波号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+	}				
+	### 2nd FLEET ###
+	navy = {					
+		name = "第2海军中队"				
+		base = 6973
+		location = 6973 # La Spezia		
+		ship = { name = "乔瓦尼·阿尔班德内尔号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "吉萨诺级" } } }
+		ship = { name = "巴托洛梅奥科莱奥尼号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "吉萨诺级" } } }
+		# 10a Squadriglia Cacciatorpedindiere
+		ship = { name = "西北风号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "西北风级" } } }
+		ship = { name = "东北风号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "西北风级" } } }
+		ship = { name = "西南风号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "西北风级" } } }
+		ship = { name = "热风号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "西北风级" } } }
+	}					
+	navy = {					
+		name = "第3海军中队"				
+		base = 6973
+		location = 6973 # La Spezia		
+		ship = { name = "博尔扎诺号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "扎拉级" } } }
+		ship = { name = "特伦托号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA } } }				
+		ship = { name = "的里雅斯特号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA } } }				
+		# 11a Squadriglia Cacciatorpedindiere
+		ship = { name = "安东尼奥 - 诺利号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "乌戈利诺维瓦尔第号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "兰奇罗托马诺塞诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "塞拉利昂潘科尔多号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+	}					
+	navy = {					
+		name = "第6海军中队"				
+		base = 6973
+		location = 6973 # La Spezia		
+		ship = { name = "波拉号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "扎拉级" } } }
+		# 12a Squadriglia Cacciatorpedindiere
+		ship = { name = "安东尼皮加费塔号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "阿尔维塞·卡达莫斯托号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "乔瓦尼·达韦拉扎诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "尼科洛·芝诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+	}					
+	navy = {					
+		name = "第7海军中队"				
+		base = 6973
+		location = 6973 # La Spezia		
+		ship = { name = "埃曼努埃莱·菲利贝托号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "蒙特库科利级" } } }
+		ship = { name = "墨齐奥·阿当多罗号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "蒙特库科利级" } } }
+		ship = { name = "拉依蒙多·蒙特库科利号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "蒙特库科利级" } } }
+	}
+					
+	navy = {					
+		name = "塔兰托编队"				
+		base = 11837
+		location = 11837 # Taranto				
+		ship = { name = "圣乔治号" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA } } }				
+		ship = { name = "塔兰托号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }				
+		ship = { name = "巴里号" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA } } }				
+		# 2a Squadriglia Cacciatorpedindiere
+		ship = { name = "爱斯皮罗号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "博雷亚号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "西风号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "奥斯特罗号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		# 6a Squadriglia Torpedindiere
+		ship = { name = "鲁索利诺皮罗号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "约瑟夫米索尼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "弗朗西斯丝托科号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "朱塞佩西尔托里号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# 7a Squadriglia Torpedindiere
+		ship = { name = "天使巴西尼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "恩里科科森斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "贾科莫·梅迪奇号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "尼古拉·法布里齐号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# Squadriglia Cacciatorpedindiere di Taranto
+		ship = { name = "查尔斯米拉贝洛号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "奥古斯托里泊地号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+	}					
+	navy = {					
+		name = "那不勒斯海军编队"				
+		base = 819
+		location = 819 # Naples
+		# 3a Squadriglia Torpedindiere
+		ship = { name = "马塞罗普雷斯第那里将军号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "安东尼坎图尔将军号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "朱塞佩·拉马萨号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "贾钦托卡里尼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# 4a Squadriglia Torpedindiere
+		ship = { name = "卡拉塔菲米号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "卡斯特尔费达号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "库尔塔托号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "蒙赞巴诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+	}					
+	navy = {					
+		name = "撒丁岛海军编队"				
+		base = 6891
+		location = 6891 # La Maddelena, Sardina
+		# 2a Squadriglia Torpedindiere
+		ship = { name = "阿奇爸爸将军号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "卡罗蒙塔纳将军号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "安东尼卡西诺将军号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "安东尼奇诺托将军号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# 9a Squadriglia Torpedindiere
+		ship = { name = "安东尼莫斯托号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "伊波利托尼沃号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "凯罗利兄弟号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+	}					
+	navy = {					
+		name = "西西里岛海军编队"				
+		base = 4159 
+		location = 4159 # Messina			
+		# 1a Squadriglia Torpedindiere
+		ship = { name = "帕勒斯号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "孔菲耶恩扎号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "圣马蒂诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "索尔费里诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# 5a Squadriglia Torpedindiere
+		ship = { name = "朱塞佩·法里纳拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "西蒙娜·菲诺号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "朱塞佩·德札号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "朱塞佩·塞萨尔阿巴号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+	}					
+	navy = {					
+		name = "爱琴海海军编队"				
+		base = 10007 
+		location = 10007 # Rhodes		
+		# 4a Squadriglia Cacciatorpedindiere
+		ship = { name = "弗朗切斯科克里斯皮号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "昆廷塞拉号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# 8a Squadriglia Torpedindiere
+		ship = { name = "苍鹰号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "西北风级" } } }
+		ship = { name = "穗号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "西北风级" } } }
+	}
+	navy = {					
+		name = "第1潜艇编队"				
+		base = 6973
+		location = 6973 # La Spezia		
+		# 11a Squadriglia Sommergibili
+		ship = { name = "彼得卡尔维号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "芬济朱塞佩号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "埃托雷菲拉莫斯卡号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		# 12a Squadriglia Sommergibili
+		ship = { name = "格劳科斯号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "海狮号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		# 13a Squadriglia Sommergibili
+		ship = { name = "红宝石号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "美人鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		# 14a Squadriglia Sommergibili
+		ship = { name = "H1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "H2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "H4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "H6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "H8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
+	}					
+	navy = {					
+		name = "第2潜艇编队"				
+		base = 819
+		location = 819 # Naples
+		# 21a Squadriglia Sommergibili
+		ship = { name = "贾利号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "珍缇那号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "紫水晶号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "蓝宝石号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		# 22a Squadriglia Sommergibili
+		ship = { name = "钻石号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "黄玉号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "加勒蒂亚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "沙蚕号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+	}					
+	navy = {					
+		name = "第3潜艇编队"				
+		base = 4159 
+		location = 4159 # Messina			
+		# 31a Squadriglia Sommergibili
+		ship = { name = "皮萨尼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "约翰巴撒号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "尼欧科隆纳号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "德革列斯号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		# 32a Squadriglia Sommergibili
+		ship = { name = "班迪耶拉兄弟号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "卢西亚诺马纳拉号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "西罗梅诺蒂号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "桑雷尔圣罗莎号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		# 33a Squadriglia Sommergibili
+		ship = { name = "戈弗雷多马梅利号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "皮耶罗卡波尼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "铁托·希号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "乔瓦尼·达普罗奇达号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+	}					
+	navy = {					
+		name = "第4潜艇编队"				
+		base = 11837
+		location = 11837 # Taranto			
+		# 41a Squadriglia Sommergibili
+		ship = { name = "巴利拉号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "安东尼希楚萨号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "恩里科·托蒂号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+		ship = { name = "多梅尼科米耳尔号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }			
+	}					
+	navy = {					
+		name = "第6潜艇编队"				
+		base = 10007 
+		location = 10007 # Rhodes		
+		# 61a Squadriglia Sommergibili
+		ship = { name = "警笛号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "淘金者号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "菲萨利亚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "翡翠号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "耐德号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+	}					
+	navy = {					
+		name = "第7潜艇编队"				
+		base = 6891
+		location = 6891 # La Maddelena, Sardina
+		# 71a Squadriglia Sommergibili
+		ship = { name = "海蜇号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "安菲特里特号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+	}					
+
+	### AFRICA ###					
+	navy = {					
+		name = "利比亚海军编队"				
+		base = 1130 
+		location = 1130 # Tobruk			
+		# 1a Squadriglia Cacciatorpedindiere
+		ship = { name = "风筝号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "欧洲号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "云水号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+		ship = { name = "漩涡号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "领航级" } } }
+	}					
+	navy = {					
+		name = "红海海军编队"				
+		base = 12766 
+		location = 12766 # Asmara, Eritrea		
+		# 3a Squadriglia Cacciatorpedindiere
+		ship = { name = "弗朗西斯科 零号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "纳扎里奥 酢浆草号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "切萨雷巴提斯蒂号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "丹尼尔·马宁号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# 5a Squadriglia Cacciatorpedindiere
+		ship = { name = "利昂号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "猎豹号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "老虎号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		# 5a Squadriglia Torpedindiere de Mar Rosso
+		ship = { name = "乔瓦尼·阿恰比号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+		ship = { name = "佐丹奴文森佐·奥尔西尼号" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }	
+	}					
+	navy = {					
+		name = "第5潜艇编队"				
+		base = 1130 
+		location = 1130 # Tobruk			
+		# 51a Squadriglia Sommergibili
+		ship = { name = "海豚号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "角鲸号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "鲨鱼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "海象号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+	}					
+	navy = {					
+		name = "第8潜艇编队"				
+		base = 12766 
+		location = 12766 # Asmara, Eritrea		
+		# 81a Squadriglia Sommergibili
+		ship = { name = "路易吉塞特姆布里尼号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "鲁杰罗塞蒂莫号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "班迪耶拉级" } } }
+		ship = { name = "萨尔帕号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+		ship = { name = "毒蛇号" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "美人鱼级" } } }
+	}					
+}
+
+### Air Wings ###
+air_wings = {
+	### 1a Squadra Aerea -- Milan/Turin
+	158 = { 
+		# 2a Divisione Aerea 'Borea'
+		fighter_equipment_0 = {
+			owner = "ITA" 
+			amount = 80
+		}
+		# 4a Divisione Aerea 'Drago'
+		# 6a Divisione Aerea 'Falco'
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 128
+		}
+	}
+
+	### 2a Squadra Aerea -- Palermo
+	115 = {
+		# 1a Divisione Aerea 'Aquila'
+		fighter_equipment_0 = {
+			owner = "ITA" 
+			amount = 80
+		}
+		# 3a Divisione Aerea 'Centauro'
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 32
+		}
+	}
+
+	### 3a Squadra Aerea -- Rome
+	2 = {
+		# 5a Divisione Aerea 'Eolo'
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 64
+		}
+		# 8a Divisione Aerea 'Ibis'
+		fighter_equipment_0 = {
+			owner = "ITA" 
+			amount = 80
+		}
+	}
+
+	### 4a Squadra Aerea -- Bari
+	156 = {
+		# 9a Divisione Aerea 'Leone'
+		nav_bomber_equipment_1 = {
+			owner = "ITA" 
+			amount = 48
+		}
+	}
+
+	### Commando Aeronautica Sardegna -- Caligari
+	114 = {
+		# 10a Divisione Aerea 'Marte'
+		nav_bomber_equipment_1 = {
+			owner = "ITA" 
+			amount = 24
+		}
+	}
+
+	### Commando Aeronautica Libia -- Tripoli
+	448 = {
+		fighter_equipment_0 =  {
+			owner = "ITA" 
+			amount = 20
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 32
+		}
+	}
+
+	### Commando Aeronautica Africa Orientale -- Eritrea
+	550 = {
+		fighter_equipment_0 =  {
+			owner = "ITA" 
+			amount = 40
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "ITA" 
+			amount = 32
+		}
+		CAS_equipment_1 =  {
+			owner = "ITA" 
+			amount = 48
+		}
+	}
+}
+
+	
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+
+	if = {
+		limit = { is_tutorial = no }
+
+		add_equipment_production = {
+			equipment = {
+				type = infantry_equipment_1
+				creator = "ITA"
+			}
+			requested_factories = 4
+			progress = 0.1
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = support_equipment_1
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.3
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_1
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.4
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = motorized_equipment_1
+				creator = "ITA" 
+			}
+			requested_factories = 2
+			progress = 0.4
+			efficiency = 50
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = CAS_equipment_1
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.2
+			efficiency = 50
+		}
+
+		### Under Contruction Notes ###
+		# BB: RM Conte di Cavour (BB_2: Caio Duilio Class) (Refit, Recomm. 1-Jun, 1937) 	
+		add_equipment_production = {
+			equipment = {
+				type = battleship_2
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.20
+			amount = 1
+		}
+		# BB: RM Giulio Cesare (BB_2: Caio Duilio Class) (Refit, Recomm. 3-Jun, 1937)
+		add_equipment_production = {
+			equipment = {
+				type = battleship_2
+				creator = "ITA" 
+			}
+			requested_factories = 1
+			progress = 0.20
+			amount = 1
+		}
+		# CL: RM Eugenio di Savoia (Montecuccoli variant) (Comm. 16-Jan, 1936)
+		add_equipment_production = {
+			equipment = {
+				type = light_cruiser_1
+				creator = "ITA"
+				version_name = "蒙特库科利级"
+			}
+			requested_factories = 1
+			progress = 0.95
+			amount = 1
+		}
+		# DD: Maestrale variant (x2) ("Perseo" "Sirio")
+		add_equipment_production = {
+			equipment = {
+				type = destroyer_1
+				creator = "ITA"
+				version_name = "西北风级"
+			}
+			requested_factories = 2
+			progress = 0.70
+			amount = 2
+		}
+		# SS: Sirena variant (x1) ("Enrico Tazzoli")
+		add_equipment_production = {
+			equipment = {
+				type = submarine_1
+				creator = "ITA"
+				version_name = "美人鱼级"
+			}
+			requested_factories = 1
+			progress = 0.50
+			amount = 1
+		}
+	}
+
+}
+	#####################

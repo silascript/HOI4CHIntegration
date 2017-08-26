@@ -1,0 +1,9 @@
+﻿units = {
+	##### Special forces spawned from AST tree #####
+	division= {
+		name = "沙漠之鼠"
+		location = 12406 # Sydney
+		division_template = "沙漠之鼠"
+		start_experience_factor = 0.3
+	}
+}
