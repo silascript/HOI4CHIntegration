@@ -493,7 +493,7 @@ units = {
 
 	##### ROCN #####
 	navy = {
-		name = "第1舰队"
+		name = "中华民国第一舰队"
 		base = 7014
 		location = 7014 #Shanghai
 		ship = { name = "应瑞号" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
