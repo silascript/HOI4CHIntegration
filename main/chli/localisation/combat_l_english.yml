@@ -54,7 +54,7 @@
  TACTICS_LIST_DESC:0 "§H战术列表§!\n\n显示所有在战斗中可用与不可用的战术。"
  TACTICS_UNLOCKED:0 "§G已解锁§!"
  TACTICS_LOCKED_BY_TECH:0 "§R未解锁§!\n\n§Y通过研发以下任一科技解锁:§!$TECH$"
- TACTICS_LOCKED_BY_NOT_HANDLED:0 "§R未解锁。玩家需要达成特定条件才能解锁。"
+ TACTICS_LOCKED_BY_NOT_HANDLED:0 "§R未解锁。玩家需要达成特定条件才能解锁。§!"
  TACTICS_LOCKED_TECH_DESC:0 "\n$NAME$ ($CATEGORY$)"
  BM_RIVER_PENALTY:0 "跨河"
  BM_RIVER_PENALTY_DESC:0 "渡河总是危险的行动，尤其当你处于敌人火力之下时。"

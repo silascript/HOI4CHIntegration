@@ -92,7 +92,7 @@
  alert_is_observer_instant:0 "你正在通过 $COUNTRY$ 视角观看游戏"
  alert_is_observer_delayed_enter:0 "点击进入国家选择界面"
  alert_is_observer_delayed_exit:0 "点击离开国家选择界面"
- alert_is_observer_delayed_desc:0 ", 按住ctrl键点击鼠标或在选择模式点击国家版图或旗帜,以选择一个国家作为视角."
+ alert_is_observer_delayed_desc:0 "，Ctrl+点击或在选择模式点击国家版图或旗帜，可以选择一个国家作为视角。"
  alert_can_play_observed_instant:0 "你能控制 $COUNTRY$, 点此控制."
  alert_naval_battle_results_instant:0 "§H未读的海军战斗报告§!"
  alert_naval_battle_results_delayed_list:0 "有未读的海军战斗报告:\n$LIST$"
