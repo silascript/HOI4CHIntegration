@@ -21,7 +21,8 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "AnimatedMapText"
 		fontfiles = { 
-			"gfx/fonts/tahoma_20_bold"
+			"gfx/fonts/hoi_18"
+			"gfx/fonts/hoi_18_cryllic"	
 			"gfx/fonts/Arial_16"	
 		}
 	languages = { "l_english" } 
@@ -115,15 +116,6 @@ bitmapfonts = {
 		}
 	languages = { "l_english" } 
 	}
-	
-	bitmapfont_override = {
-		name = "vic_29s"
-		fontfiles = { 
-			"gfx/fonts/vic_29s"	
-			"gfx/fonts/Arial_26"		
-		}		
-	languages = { "l_english" } 
-	}		
 			
 	bitmapfont_override = {
 		name = "vic_36"
