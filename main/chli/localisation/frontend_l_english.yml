@@ -133,7 +133,7 @@
  FE_DIFFICULTY_NORMAL:1 "常规"
  FE_DIFFICULTY_NORMAL_TOOLTIP:0 "§L”敌强如斯，能如奔涛般击溃我军。我们或许不会马上成功，但将屡败屡战，百战不饶。”§!"
  FE_DIFFICULTY_HARD:1 "老兵"
- FE_DIFFICULTY_HARD_TOOLTIP:1 "§L“三十年之后，当你坐在壁炉边，你膝盖上的孙子问你：“你在那场伟大的第二次世界大战期间都干了什么？”你不用咳嗽一声说：“这个嘛，你爷爷在路易斯安那州铲粪。””§!"
+ FE_DIFFICULTY_HARD_TOOLTIP:1 "§L“三十年之后，当你坐在壁炉边，你膝盖上的孙子问你：‘你在那场伟大的第二次世界大战期间都干了什么？’你不用咳嗽一声说：‘这个嘛，你爷爷在路易斯安那州铲粪。’”§!"
  FE_DIFFICULTY_VERY_HARD:0 "王牌"
  FE_DIFFICULTY_VERY_HARD_TOOLTIP:1 "§L“我能尽心奉献的别无他物，只有热血、辛劳、眼泪和汗水。”§!"
  FE_DIFFICULTY_UNKNOWN:0 "隐藏难度"

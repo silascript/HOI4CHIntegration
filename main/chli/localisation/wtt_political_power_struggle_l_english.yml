@@ -2,7 +2,7 @@
  CHI_political_power_struggle:0 "中国的权力斗争"
  CHI_political_power_struggle_desc:0 "[Root.GetPoliticalStruggleDesc]"
  CHI_political_power_struggle_desc_active:0 "一场关于中国的政权控制的斗争爆发了。我们必须获取各军阀和各省人民的支持才能胜利。"
- CHI_political_power_struggle_desc_not_active:1 "中国政治可以像任何战争一样狠毒。如果我们或者其它任何人希望获取国家的领导权，那就必须做好争取军阀和各省人民的支持以获得胜利的准备。"
+ CHI_political_power_struggle_desc_not_active:1 "中国政治可以像任何战争一样凶险。如果我们或者其它任何人希望获取国家的领导权，那就必须做好争取军阀和各省人民的支持以获得胜利的准备。"
  political_support_status:0 "政治局势"
  political_support_status_desc:0 "[This.GetFullPoliticalSupport_CHI][This.GetFullPoliticalSupport_PRC][This.GetFullPoliticalSupport_GXC][This.GetFullPoliticalSupport_YUN][This.GetFullPoliticalSupport_SHX][This.GetFullPoliticalSupport_XSM][This.GetFullPoliticalSupport_SIK][This.GetLiberationRule]"
  CHI_political_support:0 "[scope_CHI.GetNameDefCap]有[?scope_CHI.total_political_support_points|+0] §H政治支持点§!\n"

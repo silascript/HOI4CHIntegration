@@ -230,7 +230,7 @@
  SHIP_MORALE:0 "舰船: $VAL|Y$"
  SHIP_MORALE_MOD:0 "舰船: $VAL|=%$"
  NAVAL_COMBAT_SHIP_ORGANIZATION:0 "组织度: $CUR|0Y$/$MAX|0Y$\n"
- NAVAL_COMBAT_SHIP_ORGANIZATION_DESC:0 "组织度表示舰船的作战准备以及组织水平。一艘组织度为0的舰船是无法战斗的。。"
+ NAVAL_COMBAT_SHIP_ORGANIZATION_DESC:0 "组织度表示舰船的作战准备以及组织水平。一艘组织度为0的舰船是无法战斗的。"
  STAT_FROM_TECH:0 "科技加成: $VAL|+=1%$"
  STAT_FROM_EQUIPMENT:0 "装备加成: $VAL|+=1%$"
  STAT_BASE_VALUE:0 "基础数值: "

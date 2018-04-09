@@ -504,7 +504,7 @@
  DOD_romania.3.desc:0 "[From.GetLeader]拒绝与我们在华沙的代表团会面，且只传达了一个简短的消息，即‘与罗马尼亚的关系更进一步不符合[From.GetAdjective]政府的利益。’\n\n我们要求对方进一步的解释没有得到回复。"
  DOD_romania.3.a:0 "令人遗憾。"
  DOD_romania.10.t:0 "隔离线"
- DOD_romania.10.desc:0 "最初的目的是遏制共产主义的蔓延，阻止红军的脚步踏入欧洲，但现在为了阻止[GER.GetNameDef]和[SOV.GetNameDef]扩张其政治势力与意识型态，隔离线的理念被[ROM.GetLeader]重新启用。\n\n罗马尼亚人已经向我们发出与他们正式结盟的声音。"
+ DOD_romania.10.desc:0 "最初的目的是遏制共产主义的蔓延，阻止红军的脚步踏入欧洲，但现在为了阻止[GER.GetNameDef]和[SOV.GetNameDef]扩张其政治势力与意识形态，隔离线的理念被[ROM.GetLeader]重新启用。\n\n罗马尼亚人已经向我们发出与他们正式结盟的声音。"
  DOD_romania.10.a:0 "我们立场一致。"
  DOD_romania.10.b:0 "中立是最好的防御手段。"
  DOD_romania.11.t:0 "[From.GetNameDefCap]同意加入隔离线"
