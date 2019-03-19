@@ -29,7 +29,7 @@
  ORDER_PROV_TOOLTIP_DEFENSIVE_LINE_WRONG_LINE_ERR:0 "§R你无法在这里扩大阵线。§!\n请下达一条单独的§Y防御命令§!来覆盖这片区域。"
  ORDER_PROV_TOOLTIP_OFFENSIVE_LINE:0 "§G右键点击并拖动将§Y进攻态势线§!设置在这片领土上。§!"
  ORDER_PROV_TOOLTIP_OFFENSIVE_LINE_CANT:0 "§R你无法在这里设定进攻态势线。§!\n请将你的鼠标移动至一个高亮的领土上。"
- ORDER_PROV_TOOLTIP_OFFENSIVE_LINE_EDIT:0 "§G右键点击并拖动调整这条§Y进攻态势线§!"
+ ORDER_PROV_TOOLTIP_OFFENSIVE_LINE_EDIT:0 "§G右键点击并拖动调整这条§Y进攻态势线§!§!"
  ORDER_PROV_TOOLTIP_INVASION_INVALID_PROV:0 "§R这不是一个可以有效入侵的省份。§!\n请将鼠标移动到标记区域或现有的§Y入侵计划§!上。"
  ORDER_PROV_TOOLTIP_PARADROP_INVALID_PROV:0 "§R这不是一个可以有效空降的省份。§!\n请将鼠标移动到标记区域或现有的§Y空降计划§!上。"
  ORDER_PROV_TOOLTIP_INVASION_SOURCE:0 "§G点击§!选择§Y入侵出发点§!。"
