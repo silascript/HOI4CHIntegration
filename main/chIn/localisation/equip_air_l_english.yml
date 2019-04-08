@@ -8,7 +8,7 @@
  jet_fighter_equipment_desc:0 "战斗机灵敏轻巧，可完成多种任务。包括夺取制空权、为轰炸机护航及截击敌方轰炸机。"
  cas:1 "近距支援机"
  CAS_equipment_desc:0 "近距支援机为地面战斗提供支援。"
- cv_cas:1 "近距支援机"
+ cv_cas:2 "舰载近距支援机"
  cv_CAS_equipment_desc:0 "近距支援机为地面战斗提供支援。"
  nav_bomber:0 "海军轰炸机"
  nav_bomber_equipment_desc:0 "海军轰炸机可攻击敌方舰船。"

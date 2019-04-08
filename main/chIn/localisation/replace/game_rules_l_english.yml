@@ -175,7 +175,7 @@
  RULE_FASCIST_FRA_AI_DESC:0 "法国AI会沿着焦点树的相关路径，尝试转变为法西斯主义并与法西斯德国合作。"
  RULE_OPTION_COMMUNIST_HUN_AI_DESC:0 "匈牙利AI会沿着焦点树的相关路径，尝试成为共产主义国家并与其他共产主义的主要国家结盟。"
  RULE_OPTION_DEMOCRATIC_HUN_AI_DESC:0 "匈牙利AI会沿着焦点树的相关路径，尝试成为君主立宪制国家。"
- RULE_OPTION_BALKAN_DOMINANCE_ROM_AI_DESC:0 "罗马尼亚AI会沿着焦点树的相关路径，尝试在其巴尔干邻居中建立起至高无上的地位。"
+ RULE_OPTION_BALKAN_DOMINANCE_ROM_AI_DESC:0 "罗马尼亚AI会沿着焦点树的相关路径，尝试建立对巴尔干邻国的霸权。"
  RULE_OPTION_DEMOCRATIC_ROM_AI_DESC:0 "罗马尼亚AI会沿着焦点树的相关路径，尝试将国家改革为运作良好的民主国家并与其他民主主义的主要国家结盟。"
  RULE_COMMUNIST_ROM_AI_DESC:0 "罗马尼亚AI会沿着焦点树的相关路径，尝试与共产主义的主要国家缔结同盟。"
  RULE_OPTION_COMMUNIST_YUG_AI_DESC:0 "南斯拉夫AI会沿着焦点树的相关路径，尝试将国家改革为共产主义共和国。"

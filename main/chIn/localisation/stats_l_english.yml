@@ -198,7 +198,7 @@
  STAT_COMMON_MAXIMUM_SPEED_VALUE:0 "$VALUE|*H1$ km/h"
  STAT_COMMON_MAXIMUM_SPEED_DIFF:0 " $VALUE|=+1$ km/h"
  STAT_NAVY_MAXIMUM_SPEED:0 "最大速度："
- STAT_NAVY_MAXIMUM_SPEED_DESC:0 "速度越快，船只越容易摆脱追击并且更快进入自己优势的火力范围，在舰队集中时也能更快就位。"
+ STAT_NAVY_MAXIMUM_SPEED_DESC:1 "当试图从战斗中撤退时，速度更快的船更容易脱离追击者。它也不太可能被敌人的火力击中，在发现敌人时可以更容易地进行通信，并且在脱离战斗后移动得更快。"
  STAT_NAVY_MAXIMUM_SPEED_VALUE:0 "$VALUE|H1$ kn"
  STAT_NAVY_MAXIMUM_SPEED_DIFF:0 " $VALUE|=+1$"
  STAT_NAVY_RANGE:0 "最大航程："
