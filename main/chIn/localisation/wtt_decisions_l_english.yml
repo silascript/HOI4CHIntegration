@@ -621,7 +621,7 @@
  SOV_hold_stalingrad:0 "拥有斯大林格勒"
  SOV_hold_leningrad:0 "拥有列宁格勒"
  SOV_hold_moscow:0 "拥有莫斯科"
- SOV_seize_manchuria:0 "索取满洲"
+ SOV_seize_manchuria:0 "夺取满洲"
  SOV_seize_manchuria_desc:0 "由于日本内战的结果，[MAN.GetName]已经脱离了日本的统治。如果我们迅速行动，那么我们有一个绝佳的机会在该地区建立苏维埃的牢固统治"
  SOV_return_manchuria:0 "归还满洲"
  SOV_return_manchuria_desc:0 "我们将把满洲归还给中国唯一合法的人民政权。"

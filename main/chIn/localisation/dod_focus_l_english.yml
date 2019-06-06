@@ -145,7 +145,7 @@
  HUN_cas_focus:0 "重视近距支援机"
  HUN_cas_focus_desc:0 "现代化战争不仅需要地面的支援，还需要空中支援。"
  HUN_tac_focus:1 "重视战术轰炸机"
- HUN_tac_focus_desc:0 "胜利将通过消灭敌人的地面部队来实现。我们必须把重点放在对近距离和纵深目标的战术打击上，以支援我们的部队。"
+ HUN_tac_focus_desc:0 "只有彻底消灭敌人的地面部队才能取得战争的胜利。我们必须把重点放在对近距离和纵深目标的战术打击上，以支援我们的部队。"
  HUN_license_foreign_designs:0 "外国设计的许可证"
  HUN_license_foreign_designs_desc:0 "外国空军已经表明，他们拥有经过验证的高质量的设计。我们应该请求允许在许可证下生产这些外国机型，而不应该冒不必要风险及仅依靠我们刚刚起步的航空专业知识。"
  HUN_fighter_competition:0 "战斗机比赛"

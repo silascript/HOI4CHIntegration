@@ -75,3 +75,4 @@
  THEATRE_UNITS:0 "该战区拥有$N|Y$个师"
  THEATRE_GROUP_UNASSIGNED:0 "未分配"
  CAN_ONLY_HAVE_ONE_INVASION_PER_PORT:0 "§R只能对任意选定港口下达一个单独的入侵命令。§!"
+ EDIT_MODE_CLICK_TO_REORDER:0 "\n§G点击§!让前线上的§H集团军§!互换命令"

@@ -660,7 +660,7 @@
  DOD_yugoslavia.10.t:0 "第五支柱"
  DOD_yugoslavia.10.desc:0 "在向德国宣战的消息传遍我国之后，显然国内许多人根本没有拿起武器抵抗入侵者的意愿。主由克罗地亚人组成的军事单位拒绝执行前往国境的命令，甚至还有些向正在执行命令的其他单位开火的事例。\n\n很明显，克罗地亚人是靠不住的，至少与德国交壤地区的防卫无法稳定了。"
  DOD_yugoslavia.10.a:0 "叛徒！"
- DOD_yugoslavia.20.t:0 "[YUG.GetAdjective]购入飞机申请"
+ DOD_yugoslavia.20.t:1 "[YUG.GetName]购入飞机申请"
  DOD_yugoslavia.20.desc:0 "意识到战略层级上的弱点，[YUG.GetAdjective]空军已发起一系列迅速的空军现代化及拓展项目。数目可观的预算已为这些支出做好了准备。一个使团正巡回欧洲，寻求着战斗机及中型轰炸机的新提供商。\n\n基于该问题急切需要解决，[YUG.GetAdjective]使团坚持从生产商手中直接运输或交付购入的飞机。"
  DOD_yugoslavia.20.a:0 "批准从我国库存中购入战斗机。"
  DOD_yugoslavia.20.b:0 "批准从我国库存中购入轰炸机。"
