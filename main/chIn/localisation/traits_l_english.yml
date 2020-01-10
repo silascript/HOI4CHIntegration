@@ -235,7 +235,7 @@
  blockade_runner:0 "穿越封锁"
  blockade_runner_desc:0 "§L能迅速的从海战中脱离战斗。§!"
  spotter:0 "索敌专家"
- spotter_desc:0 "§L索敌专家会在关注敌人舰队上格外认真。§!"
+ spotter_desc:0 "§L索敌专家特别注意监视敌方舰队。§!"
  fly_swatter:0 "火鸡射手"
  fly_swatter_desc:0 "§L认识到了对舰船最大的危险来自那些飞机，并能在它们靠近的时候做出迅速的反应。§!"
  ironside:0 "铁人"

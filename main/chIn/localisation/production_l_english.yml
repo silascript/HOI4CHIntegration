@@ -109,7 +109,7 @@
  PRODUCTION_CIVILIAN_FACTORIES_CURRENTLY:0 "正在使用中：$VALUE|R$"
  PRODUCTION_MAX_EFFICIENCY_BASE:0 "基础上限：$VALUE|Y%$"
  PRODUCTION_MAX_EFFICIENCY_TOT:0 "£prod_eff_cap 生产效率上限：$VALUE|Y%$"
- PRODUCTION_MAX_EFFICIENCY_HINT:0 "£prod_eff_cap 生产效率上限你£prod_eff  生产效率的最大值，可通过£tech_mod 技术增加。"
+ PRODUCTION_MAX_EFFICIENCY_HINT:0 "£prod_eff_cap 生产效率上限决定了你 £prod_eff  生产效率的最大值。可以通过 £tech_mod 科技来提高上限。"
  PRODUCTION_RESOURCES_PER_FACTORY:0 "§H每个工厂生产资源：§!"
  PRODUCTION_MATERIAL_NO_WASTE:0 "生产线没有浪费该资源。"
  PRODUCTION_MATERIAL_WASTE:0 "生产线正浪费$WASTE|R2$该资源。"

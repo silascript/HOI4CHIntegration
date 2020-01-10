@@ -36,7 +36,7 @@
  PRC_mao_faction:0 "互助集团"
  USA_hemisphere_defense_faction:0 "互惠援助条约"
  ENG_commonwealth_of_nations:0 "英联邦"
- ENG_british_communist_alternative:0 "英式共产主义选择"
+ ENG_british_communist_alternative:0 "英式共产主义联盟"
  FACTION_NAME_DEMOCRATIC_1:0 "$CONTINENT_ADJ$联合"
  FACTION_NAME_DEMOCRATIC_2:0 "$CONTINENT_ADJ$协约"
  FACTION_NAME_DEMOCRATIC_3:0 "$LEADER_COUNTRY_ADJ$协定"
