@@ -55,5 +55,5 @@
  WAR_OVERVIEW_CALL_COUNTRY_LIST:0 "这样会向以下国家发送信息：$COUNTRIES$"
  WAR_OVERVIEW_CALL_ALL_FACTION_DISABLED:0 "§R阵营内没有可以召唤加入战争的国家§!"
  WAR_OVERVIEW_ALLY_ALREADY_CALLED:0 "§R我们已经召唤了这个盟友，正在等待他的回复§!"
- SURRENDER_GIE_LEGITIMACY:0 "如果他们投降，他们将成为§H流亡政府§!。他们的 §H合法性§!将是$LEGITIMACY|0Y$."
+ SURRENDER_GIE_LEGITIMACY:0 "如果他们投降，他们将成为§H流亡政府§!。他们的§H合法性§!将是$LEGITIMACY|0Y$。"
  CAN_SURRENDER_SUBJECT:0 "他们目前在和他们的宗主国一同作战，只有当宗主国投降后他们才会投降。\n宗主国：$OVERLORD|Y$"

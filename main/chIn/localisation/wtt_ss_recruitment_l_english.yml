@@ -1,7 +1,7 @@
 ﻿l_english:
  GER_ss_factory_rerouted:0 "秘密党卫军项目"
  SS_recruitment:0 "外籍志愿者"
- SS_recruitment_desc:1 "在希姆莱领导下的党卫军相信他们应该负责招募对抗全球布尔什维克主义的外籍志愿者。国防军极为反对并且不会容忍一个平行的指挥系统。把任意一派逼得太紧都可能有严重的后果。\n\n当前在德军国防军最高统帅部的§Y情绪§!：[Root.GetWehrmachtAngerLevel]　([?GER.wehrmacht_anger|-0])\n\n当前在党卫军领导层的§Y情绪§!：[Root.GetSSAngerLevel]　([?GER.SS_anger|-0])"
+ SS_recruitment_desc:1 "在希姆莱领导下的党卫军相信他们应该负责招募对抗全球布尔什维克主义的外籍志愿者。国防军极为反对并且不会容忍一个平行的指挥系统。把任意一派逼得太紧都可能有严重的后果。\n\n当前在德军国防军最高统帅部的§Y情绪§!：[Root.GetWehrmachtAngerLevel]（[?GER.wehrmacht_anger|-0]）\n\n当前在党卫军领导层的§Y情绪§!：[Root.GetSSAngerLevel]（[?GER.SS_anger|-0]）"
  SS_loyal:0 "忠诚"
  SS_calm:0 "平静"
  SS_worried:0 "担忧"
