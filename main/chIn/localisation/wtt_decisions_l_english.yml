@@ -809,7 +809,7 @@
  CHI_industrial_evacuations_remove_IC:0 "移除所有§Y民用工厂§!。\n"
  CHI_industrial_evacuations_add_AF:0 "添加被移除的§Y军用工厂§!的75%。\n"
  CHI_industrial_evacuations_add_IC:0 "添加被移除的§Y民用工厂§!的75%。\n"
- recall_von_lettow_vorbeck:0 "召回保罗·冯·莱托 - 福尔贝克"
+ recall_von_lettow_vorbeck:0 "召回保罗·冯·莱托-福尔贝克"
  recall_von_lettow_vorbeck_desc:0 "霍亨索伦重回王座之后，往日的东非雄狮希望能再次为帝国效力。"
  MAN_recruit_bandits_north:0 "招安北部的土匪"
  MAN_recruit_bandits_north_desc:0 "用于剿匪的每一发子弹对于即将到来的大战来说都是一种浪费。相对于内斗，我们应该给他们一条通过为皇帝陛下效力来改过自新的道路。"
