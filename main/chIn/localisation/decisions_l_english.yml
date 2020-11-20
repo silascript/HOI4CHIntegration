@@ -16,3 +16,4 @@
  ADD_DAYS_TO_MISSION:0 "任务$MISSION|H$添加$DAYS|H$日时长"
  REMOVE_DAYS_TO_MISSION:0 "任务$MISSION|H$中减少$DAYS|H$日时长"
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§G点击§!切换该类别下所有决议的通知状态。"
+ banned_communism_flag:0 "已禁止共产党"

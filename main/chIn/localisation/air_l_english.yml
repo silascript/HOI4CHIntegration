@@ -138,7 +138,7 @@
  AIR_ASSIGN_ALL_INSTANT_SHIFT:0 "§GShift+点击分配范围内所有空军联队到此区域。§!"
  AIR_ASSIGN_ALL_INSTANT_SHIFT_DISABLED:0 "§R范围内所有空军联队已经分配到此区域。§!"
  AIR_REASSIGN_ALL:0 "全部重分配"
- AIR_SELECT_ALL_REGION:0 "全部选中"
+ AIR_SELECT_ALL_REGION:0 "全部选择"
  AIR_DESELECT_ALL_REGION:0 "全部取消"
  AIR_REASSIGN_ALL_RIGHT_CLICK:0 "§G右键点击重分配空军联队到这一区域§!"
  AIR_REBASE_ALL_DESC:0 "§G点击让所有可用的空军联队移动到最近的基地以提高效率。§!"
@@ -361,3 +361,4 @@
  AIR_REINFORCE_DESC:0 "更改增援规则§H重组§!空军联队。"
  DUPLICATE_SELECTED_WINGS:0 "向所有可能的联队复制选中的空军联队。"
  DUPLICATE_WINGS_BLOCK:0 "§R要复制空军联队，你必须选中至少一个联队，并且库存中需有一些飞机与此联队中的飞机相匹配。§!"
+ AIRWING_NEW_BLOCKED:0 "§R无法创建空军联队。没有库存飞机。§!"

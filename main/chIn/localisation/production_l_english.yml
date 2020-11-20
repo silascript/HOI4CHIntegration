@@ -160,7 +160,7 @@
  PRODUCTION_UNITS_PER_MONTH:0 "$UNITS|Y$单位/月"
  PRODUCTION_UNITS_PER_YEAR:0 "$UNITS|Y$单位/年"
  PRODUCTION_FACTORY_ASSIGN_DESC:1 "点击分配£factory_item $FACTORIES|Y$§Y军用工厂§!到该生产线。这将使总产量£production_cost 变为$OUTPUT|Y$/日。\n总产出会受到§Y资源§!、§Y生产效率§!和其他§Y生产修正§!的影响。"
- PRODUCTION_DOCKYARD_ASSIGN_DESC:1 "点击分配£naval_factory_icon $FACTORIES|Y$§Y海军船坞§!到该生产线。这将使总产量£navprod_cost 变为$OUTPUT|Y$/天。\n总产出会受到§Y资源§!和其他§Y生产修正§!的影响。"
+ PRODUCTION_DOCKYARD_ASSIGN_DESC:1 "点击分配£naval_factory_icon $FACTORIES|Y$§Y海军船坞§!到该生产线。这将带来每日£navprod_cost $OUTPUT|Y$的基础产量。\n总产量会受到§Y资源§!和其他§Y生产修正§!的影响。"
  PRODUCTION_BASE_OUTPUT:0 "基础产量：$VALUE|Y$ x $MUL|Y$"
  PRODUCTION_EFF_GAIN_HINT:0 "§Y效率增长速度修正：§!"
  CARRIER_AIR_WING_COMPOSITION_TITLE:0 "设定该航母空军部队的默认编组"

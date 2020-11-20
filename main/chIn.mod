@@ -1,7 +1,7 @@
-version="9.0"
+version="10.0"
 name="ChineseLocalizationIntegration"
 path="mod/chIn/"
 tags={
 	"Translation"
 }
-supported_version="1.9.*"
+supported_version="1.10.*"
