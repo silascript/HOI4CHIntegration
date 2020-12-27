@@ -115,7 +115,7 @@
  USA_protest_army_of_aggression:0 "抗议法国煽动战争"
  USA_protest_baltic_annexation:0 "抗议吞并波罗的海诸国"
  USA_protest_molotov_ribbentrop:0 "抗议莫洛托夫 - 里宾特洛甫条约"
- USA_protest_munich:0 "抗议慕尼黑协定"
+ USA_protest_munich:0 "对慕尼黑协定表示抗议"
  USA_protest_anschluss:0 "抗议德奥合并"
  USA_protest_panay:0 "利用帕奈号的沉没"
  congress_low_support_trigger_tt:1 "至少需要§Y[?USA.quorum_low]位参议员§!（目前：[?USA.senators_support]位）和§Y174位众议员§!（目前：[?USA.representatives_support]位）的支持\n"

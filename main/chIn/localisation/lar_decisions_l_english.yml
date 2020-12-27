@@ -316,7 +316,7 @@
  recruit_in_europe:0 "建立欧洲分部"
  recruit_in_europe_state:0 "在[From.Owner.GetNameDef]招募"
  recruit_in_north_america:0 "建立北美分部"
- recruit_in_south_america:0 "建立南非分部"
+ recruit_in_south_america:0 "建立南美分部"
  recruit_in_africa:0 "建立非洲分部"
  recruit_in_middle_east:0 "建立中东分部"
  recruit_in_asia:0 "建立亚洲分部"

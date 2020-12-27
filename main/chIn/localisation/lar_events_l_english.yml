@@ -207,7 +207,7 @@
  lar_end_the_occupation.2.desc:1 "随着[This.GetLeader]在钢铁条约上签字，法国各地的德国军队将控制权转交给法国部队。在[From.GetLeader]和[This.GetLeader]一齐参加的仪式上，德国在巴黎的驻军降下[From.GetAdjective]国旗，然后行军离开巴黎。多少年以来，三色旗再一次飘扬在巴黎城上空。"
  lar_end_the_occupation.2.a:1 "我们重夺了自己的荣耀。"
  lar_end_the_occupation.3.t:1 "[From.GetLeader]拒绝"
- lar_end_the_occupation.3.desc:1 "虽然我们慷慨地提出参加战争，以对抗布尔什维克的威胁并惩处挑起战争的战争贩子，但是[From.GetLeader]粗鲁地断然回绝了我们的外交提议。他宣称法国人迄今为止在战争中表现得毫无武德，所以他不会将[From.GetNameDef]西方边境的防务交给一个手下败将。"
+ lar_end_the_occupation.3.desc:1 "虽然我们慷慨地提出参加战争，以对抗布尔什维克的威胁并惩处挑起战争的战争贩子，但是[From.GetLeader]粗鲁地断然回绝了我们的外交提议。他宣称法国人迄今为止在战争中表现得威风扫地，所以他不会将[From.GetNameDef]西方边境的防务交给一个手下败将。"
  lar_end_the_occupation.3.a:1 "该与[FRA.GetLeader]齐心协力了！"
  lar_end_the_occupation.3.b:2 "我们会以铁与火来回敬这一羞辱！"
  lar_end_the_occupation.4.t:0 "来自维希的提议"
