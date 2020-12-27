@@ -26,7 +26,7 @@
  TECH_SHARNG_RESEARCH_BONUS_VALUE_DETAILED_DESC:0 "\n作为$NAME|H$的成员国从以下国家得到$VALUE|G%0$加成（最大$MAX|H%0$） ："
  TECH_SHARNG_RESEARCH_BONUS_VALUE_DETAILED_COUNTRY:0 "\n@$TAG$$COUNTRY|H$"
  continuous_tech_share_group_name:0 "阵营科研"
- continuous_tech_share_group_desc:0 "因为你的持续性国策缩短阵营内其他国家已研发科技的研究时间。"
+ continuous_tech_share_group_desc:0 "因为你的持续性焦点缩短阵营内其他国家已研发科技的研究时间。"
  NO_OTHER_SHARING_GROUPS:0 "不是科技共享组织成员"
  little_entente_research_group_desc:0 "缩短捷克领导的小协约国家已研发科技的研究时间。"
  YUG_SOV_research_group_desc:0 "缩短苏联和南斯拉夫已研发科技的研究时间。"
