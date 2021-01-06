@@ -2,5 +2,5 @@ version="10.0"
 tags={
 	"Translation"
 }
-name="ChineseLocalizationIntegration"
+name="Chinese Localization Integration"
 supported_version="1.10.*"

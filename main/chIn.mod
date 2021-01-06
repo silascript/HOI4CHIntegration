@@ -1,5 +1,5 @@
 version="10.0"
-name="ChineseLocalizationIntegration"
+name="Chinese Localization Integration"
 path="mod/chIn/"
 tags={
 	"Translation"
