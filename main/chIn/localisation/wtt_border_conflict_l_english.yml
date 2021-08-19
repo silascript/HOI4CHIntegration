@@ -44,4 +44,4 @@
  wtt_border_incident_defender_warning.1.a:0 "动员所有可用的军队！"
  wtt_border_conflict_escalate_to_war.1.t:0 "[From.GetNameDefCap]正在做战争动员"
  wtt_border_conflict_escalate_to_war.1.desc:0 "情报人员汇报，[From.GetAdjective]的军队正在[their_state.GetName]集结，以期进行更大规模的军事行动来侵入[our_state.GetName]。由[From.GetLeader]调集的物资判断，这场冲突已将不再局限于争议边界。\n\n一场全面战争即将来袭。"
- wtt_border_conflict_escalate_to_war.1.a:0 "我们必须做好直面他们的准备！"
+ wtt_border_conflict_escalate_to_war.1.a:0 "我们必须准备好迎战他们！"

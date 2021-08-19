@@ -65,7 +65,7 @@
  upgrade_decryption_boost_desc:0 "§L无线电波让长距离通讯变成可能，而信号往往通过不定期更换频率进行加密。如果我们想截获敌方通讯，就必须建立侦听小组以破除敌方无线电加密。§!"
  upgrade_decryption_boost_2:1 "机械辅助解密技术"
  upgrade_decryption_boost_2_desc:0 "§L机械已在加密信息方面被证明有效：机械辅助加密信号的解密难度最大。密码分析机对破解无对应密码的信息十分重要，它将成为解密小组的一项宝贵资产。§!"
- upgrade_crypto_strength:1 "政府暗号学校"
+ upgrade_crypto_strength:1 "政府密码学院"
  upgrade_crypto_strength_desc:0 "§L密码与暗号目前为止仍是建立和保护我国海外间谍网最高效的手段。政府通讯指挥中心需要致力于创造复杂的新型加密手段以使敌方解密工作无从下手。§!"
  upgrade_crypto_strength_2:0 "机器辅助加密技术"
  upgrade_crypto_strength_2_desc:0 "§L显而易见，我方传统加密手段捉襟见肘，不足以保护我方通讯免遭敌方窥探。我们最出类拔萃的头脑们设计了一个机器，理论上它能打乱字母表顺序并按照我方期望周期性生成新暗号。应用该科技将让我方加密手段名副其实地成为敌方眼中的令人费解的“英格玛”。§!"
