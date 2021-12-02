@@ -3,4 +3,4 @@ tags={
 	"Translation"
 }
 name="Chinese Localization Integration"
-supported_version="1.13.*"
+supported_version="1.11.*"
