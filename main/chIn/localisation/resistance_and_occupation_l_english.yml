@@ -63,7 +63,7 @@
  harsh_quotas_occupation:1 "苛刻配额"
  brutally_oppressive_occupation:1 "残酷压迫"
  COMPLIANCE_ADDITIONAL_DAILY_GAIN:0 "每日额外顺从度获得：$GAIN$"
- COMPLIANCE_GAIN_IS_DISABLED:0 "§R不再获得顺从度§!"
+ COMPLIANCE_GAIN_IS_DISABLED:1 "§R因驻军不足而无法生效§!"
  OCCUPIED_COUNTRY_CORE_COUNT_TOOLTIP:0 "该国共有$NUM_CORES|H$个核心地区，您已控制其中的$NUM_CONTROLLED_CORES|H$个。"
  OCCUPIED_COUNTRY_MANPOWER_TOOLTIP:0 "在您所控制的地区中共有$NUM_TOTAL_MANPOWER|*H$人口，在目前的法案和其他修正的作用下您能够获得其$RATIO|.1H%$（$NUM_ACCESSED_MANPOWER|*H$）的人力。"
  OCCUPIED_COUNTRY_RESOURCES_TOOLTIP:0 "在你控制的地区中有$NUM_TOTAL_RESOURCES|0H$战略资源（$RESOURCES$），在目前的法案和其他修正的作用下您能够获得其$RATIO|.1H%$（$NUM_ACCESSED_RESOURCES|1H$）的资源。"
@@ -170,3 +170,4 @@
  non_core_controller:0 "无核心的控制者"
  non_core_controller_desc:0 "这个地区被无核心的国家控制"
  reconciliation:0 "和解"
+ COMPLIANCE_GAIN_IS_SCALED:0 "因驻军不足而调整为$RATIO|R.0%$！"

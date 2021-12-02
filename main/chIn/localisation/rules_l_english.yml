@@ -12,3 +12,4 @@
  CAN_BE_SPYMASTER:0 "可以成为间谍主管"
  CONTRIBUTES_OPERATIVES:0 "为间谍主管贡献特工：是"
  CAN_BOOST_OWN_IDEOLOGY:0 "可以提升他国同党派支持率。"
+ RULE_DESC_IS_A_SUBJECT:0 "$DESC$（是附属国）"

@@ -7,7 +7,7 @@
  BECOME_SPY_MASTER_ALREADY_MASTER:0 "§R你已经是间谍主管§!"
  BECOME_SPY_MASTER_FACTION_NEEDED:0 "§R你需要加入一个阵营才能成为间谍主管§!"
  BECOME_SPY_MASTER_UPGRADES_NEEDED:1 "§R你需要拥有升级$NUMBER$个不同分支的情报机构才能成为间谍主管。§!"
- BECOME_SPY_MASTER_NO_SUBJECT:0 "§R附庸国不能成为间谍主管§!"
+ BECOME_SPY_MASTER_NO_SUBJECT:0 "§R附属国不能成为间谍主管§!"
  BECOME_SPY_MASTER_COOLDOWN:0 "§R其他国家已经在$COOLDOWN|H$日之前成为了我们阵营的间谍主管。我们必须等到$DATE|H$之后才能成为间谍主管。§!"
  BECOME_SPY_MASTER_COST:1 "成为§H间谍主管§!将花费£pol_power $VALUE$点数。"
  BECOME_SPY_MASTER_DESC:0 "作为§H间谍主管§!你将能控制更多特工，其数目取决于你当前阵营的大小。\n每个阵营都只能有一个§H间谍主管§!，如果你的阵营已经有§H间谍主管§!，则必须获得其同意才能接任。"

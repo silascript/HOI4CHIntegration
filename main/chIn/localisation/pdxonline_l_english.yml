@@ -90,5 +90,5 @@
  WRONG_DOB_FORMAT:0 "出生日期不可用"
  CREATE_PARADOX_ACCOUNT:0 "创建Paradox账号"
  CREATE_PARADOX_ACCOUNT_DESCRIPTION:0 "您好！如果您想要使用线上服务的话，您需要先登录Paradox账号。"
- CREATE_PARADOX_ACCOUNT_FEATURES:1 "创建一个Paradox账号以：\n - 进行多人游戏\n - 收集成就\n - 将你的存档备份到云端\n - 获权进入Paradox论坛\n - 获得专属的折扣与优惠"
- NEWSLETTER_DESCRIPTION:1 "我想收到Paradox的新闻与优惠消息"
+ CREATE_PARADOX_ACCOUNT_FEATURES:1 "创建一个Paradox账号以：\n\t-进行多人游戏\n\t-收集成就\n\t-将你的存档备份到云端\n\t-获权进入Paradox论坛\n\t-获得专属的折扣与优惠"
+ NEWSLETTER_DESCRIPTION:1 "我希望收到Paradox的相关新闻与优惠消息"
