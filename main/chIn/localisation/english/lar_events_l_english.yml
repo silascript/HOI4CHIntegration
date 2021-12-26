@@ -904,7 +904,7 @@
  lar_news.16.t:0 "伊比利亚联盟"
  lar_news.16.desc:0 "在[SPB.GetAdjective]政府数月施压后，面对[SPB.GetAdjective]强大军事力量而孤立无援的[POR.GetNameDef]，别无他法而只能选择接受[SPB.GetLeader]自称对[POR.GetAdjective]王位拥有的继承权。因此该国已经成为了扩张中的[SPB.GetNameDef]的一个省份。"
  lar_news.16.a:0 "伊比利亚本当联合！"
- lar_news.16.b:0 "伊比利亚再次联合？有趣。"
+ lar_news.16.b:0 "伊比利亚再次联合？令人关注。"
  lar_news.17.t:0 "[From.GetAdjective]恢复君主制"
  lar_news.17.b:0 "呵呵。"
  lar_news.18.desc:0 "在弗朗西斯科•佛朗哥宣布还政于西班牙国王几个月后，[From.GetSPBkingloc]最终在今天上午进入马德里。在欢呼雀跃的人群簇拥下，皇家仪仗穿过马德里的街道，来到圣热罗尼莫教堂。\n\n在一场华丽的庆典当中，[From.GetSPBking2loc]。\n\n尽管这个国家仍有许多地方百废待兴，新国王或许能成为一股弥合伤口的力量，领导[From.GetNameDef]走向光明的未来。"

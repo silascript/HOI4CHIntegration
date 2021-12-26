@@ -16,7 +16,7 @@
  WAR_SUPPORT_INTERCEPTION:0 "拦截：$VALUE|+=2%$"
  WAR_SUPPORT_HEROES_BEING_KILLED:0 "战斗英雄阵亡：$VALUE|+=2%$"
  POLITICAL_POWER:0 "政治点数"
- POLITICAL_POWER_DESC:1 "政治点数代表政治领袖指挥国家的能力。花费政治点数来改变§H法案§!，认命§H政治顾问§!与§H军事参谋§!，管理§H研究和生产§!，以及执行§H决议§!和§H外交行动§!。"
+ POLITICAL_POWER_DESC:1 "政治点数代表政治领袖指挥国家的能力。花费政治点数来改变§H法案§!，任命§H政治顾问§!与§H军事参谋§!，管理§H研究和生产§!，以及执行§H决议§!和§H外交行动§!。"
  MANPOWER:0 "人力"
  SERVICE_MANPOWER:1 "£manpower_texticon 维修人力："
  SERVICE_MANPOWER_DESC:0 "维修人力用于保障多种装备的正常运作。"

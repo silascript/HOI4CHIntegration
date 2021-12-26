@@ -607,7 +607,7 @@
  BUL_bs_legalized_flag:0 "£faction_bul_bs §Y社会民主工党·广泛派§!已被批准合法化。"
  BUL_bzns_legalized_flag:0 "£faction_bul_bzns §Y农民联盟§!已被批准合法化。"
  BUL_nsm_legalized_flag:0 "£faction_bul_nsm §Y国家社会主义运动§!已被批准合法化。"
- BUL_days_re_enable_tt:0 "\n距离此决议再次可用还有"
+ BUL_days_re_enable_tt:0 "\n距离此决议再次可用还有："
  BUL_cooperation_faction_speech_cd_tt:0 "[GetDecisionCooldownTooltip]§Y[?BUL.BUL_faction_days_reenable_low]§!日。\n"
  BUL_cooperation_faction_joint_act_cd_tt:0 "[GetDecisionCooldownTooltip]§Y[?BUL.BUL_faction_days_reenable_medium]§!日。\n"
  BUL_cooperation_fund_faction_cd_tt:0 "[GetDecisionCooldownTooltip]§Y[?BUL.BUL_faction_days_reenable_high]§!日。\n"
