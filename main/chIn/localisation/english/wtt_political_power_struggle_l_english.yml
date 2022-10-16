@@ -131,7 +131,7 @@
  WTT_warlord_supports_us:0 "[From.GetNameDefCap]支持我们。\n获得[?From.warlord_political_support_value|+0]§H政治支持点§!。\n"
  is_not_supporting_someone:0 "没有选择任何要支持的国家。"
  is_not_supporting_someone_in_political_struggle:0 "没有在政治斗争中选择支持其它任何中国势力。"
- is_not_negotiating_support_with_other_country:0 "没有和其它任何势力谈判以获取支持。\n"
+ is_not_negotiating_support_with_other_country:0 "没有和其它任何势力进行获取支持谈判。\n"
  support_for_opposition_in_state:0 "在地方支持反对派\n"
  WTT_china_pol_struggle_state_controlled_by_leader:0 "被[WTT_current_china_leader.GetNameDef]或其附属国控制。"
  CHI_is_not_china_leader:0 "@CHI§HNationalist China§!不再是中国的领导者"

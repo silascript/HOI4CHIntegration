@@ -67,7 +67,7 @@
  BUILDING_SLOT_REMOVE_BUILDING_LEVEL:0 "移除建筑。"
  BUILDING_SLOT_REMOVE_CONSTRUCTION_LEVEL:0 "移除此建筑的一级建造等级。"
  BUILDING_SLOT_REMOVE_CONVERSION_LEVEL:0 "恢复此建筑的原用途。"
- BUILDING_SLOT_REMOVE_COOLDOWN:0 "战时每$DAYS|Y$日可移除一座建筑，下次移除将在$DATE|Y$日后可用。"
+ BUILDING_SLOT_REMOVE_COOLDOWN:0 "战时每$DAYS|Y$日可移除一座建筑。$DATE|Y$后可再次移除。"
  CLICK_TO_CONVERT:1 "§G点击§!转换为$BUILDING|Y$"
  INSERT_CONVERSION:0 "§GCtrl+点击§!开始转换并添加到队列顶端。\n§GAlt+点击§!开始转换并添加到队列底端。"
  INSERT_CONSTRUCTION:0 "§GCtrl+点击§!开始建造并添加到队列顶端。\n§GAlt+点击§!开始建造并添加到队列底端。"

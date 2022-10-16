@@ -1,7 +1,7 @@
 ﻿l_english:
  CHI_nine_power_treaty:0 "九国公约"
  CHI_nine_power_treaty_desc:0 "由于我国至今仍然受到那些标榜在中国实现“门户开放”的不平等条约压迫，洋人在国境内依旧享有治外法权，同时我们也无法完全掌控我国经济。"
- CHI_army_corruption:0 "腐败的国军"
+ CHI_army_corruption:0 "军队腐败"
  CHI_army_corruption_desc:0 "国军内部充斥着腐败以及裙带关系的侵蚀，如果我们希望这支军队有朝一日能够蜕变为善战之师，那么就必须着手推进漫长且代价高昂的军队改革。"
  CHI_ineffective_bureaucracy:0 "低效的官僚制度"
  CHI_ineffective_bureaucracy_desc:0 "内战造成的混乱导致建设有效国家机制的进程被彻底破坏，仅仅因为缺乏伯乐加以提携，便有超过三分之一的国家可用之才被闲散在中国各地。通过改革国家的选拔制度，我们将确保能够发掘急需的人才。"
@@ -67,7 +67,7 @@
  MAN_militarism:0 "军国主义"
  JAP_hirohito:0 "裕仁天皇"
  JAP_the_london_naval_treaty:0 "伦敦海军条约"
- MAN_exiled_imperial_family:0 "流亡皇室"
+ MAN_exiled_imperial_family:0 "流亡的皇族"
  JAP_military_purges:0 "整肃军队"
  PRC_soviet_tribute:0 "亲近苏联"
  MAN_low_legitimacy:0 "低正统性"
@@ -93,3 +93,4 @@
  MAN_underground_gun_shops:0 "地下工坊"
  MAN_underground_gun_shops_desc:0 "我们已经在诸如后院或是酒窖这样的地方建立了一批勉强可用的小作坊以扩大装备生产，这些地方出产的装备也许质量不怎么的，但数量包管够。"
  MAN_xian_yuan:0 "宪原"
+ LUX_alexander_von_falkenhausen:0 "亚历山大·冯·法肯豪森"
