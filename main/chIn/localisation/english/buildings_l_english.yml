@@ -33,7 +33,7 @@
  synthetic_refinery_resource:0 "£resources_strip|$FRAME$"
  radar_station:0 "雷达站"
  radar_station_plural:0 "雷达站"
- radar_station_desc:3 "雷达可使你获得邻近地区的敌军部队情报。\n提高所属地区的雷达站等级，便可增加雷达的有效距离。\n雷达也能为其所属地区提供更好的对空侦察能力，使你的战机接敌时更占优势。\n此外雷达还会提升对海监测敌方舰队的能力。"
+ radar_station_desc:3 "雷达可使你获得邻近地区的敌军部队情报。\n提高所属地区的雷达站等级，便可增加雷达的有效距离。\n雷达也能在所属地区附近提供更好的对空侦察能力，提高己方战机接敌的概率。\n此外雷达还会提升探测敌方舰队的能力。"
  rocket_site:0 "火箭基地"
  rocket_site_plural:0 "火箭基地"
  rocket_site_desc:0 "此建筑可为所属地区提供部署火箭的场所。"

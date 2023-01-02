@@ -419,7 +419,7 @@
  DOD_hungary.141.a:0 "我们应该先发制人！"
  DOD_hungary.141.b:0 "进行外交抗议。"
  DOD_hungary.141.c:0 "遵从[From.GetAdjective]的指挥。"
- DOD_hungary.142.t:0 "布莱德协定"
+ DOD_hungary.142.t:0 "布莱德协议"
  DOD_hungary.142.desc:0 "我们争得了[From.GetAdjective]对特里亚农条约修改的支持。我们的军事限制已经被解除。国际军事调查员已经离开，战争部长已经规划好初始扩军方向。"
  DOD_hungary.142.a:0 "很好。"
  DOD_hungary.143.t:0 "[From.GetNameDefCap]表示抗议"

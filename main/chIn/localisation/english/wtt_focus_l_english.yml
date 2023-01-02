@@ -730,7 +730,7 @@
  MAN_assert_our_authority_desc:0 "整个国家如今依旧四分五裂，但可没有任何自称军阀或是主席的谋逆贼徒够资格君临天下，他们都将被碾于尘埃，而天子圣威必将再度光耀中华四方。"
  MAN_offer_vassalization:0 "招安臣属"
  MAN_offer_vassalization_desc:0 "连绵不绝的战火已使整个国家四分五裂，但若是给那些拒不臣服的割据者在朝廷中安排合适的职位，我们或许可以体面地结束这场战争。"
- JAP_yamato_tt:0 "将2艘大和级超级战列舰添加至生产队列中，其分别具有75%和50%的完工度。"
+ JAP_yamato_tt:1 "将两艘§Y大和级§!超重型战列舰添加至生产线，其分别具有75%和50%的完工度。"
  SOV_communist_threat:0 "共产主义"
  SOV_fascist_threat:0 "法西斯主义"
  SOV_country_threat:0 "[SOV.GetAdjective]"
