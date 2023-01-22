@@ -349,7 +349,7 @@
  POR_stir_monarchist_sentiment_in_brazil_desc:0 "我们将煽动巴西君主主义支持者在巴西人民中传播保皇主义情绪。"
  POR_portugal_promoting_monarchist_cause_in_brazil:0 "葡萄牙鼓动君主主义者"
  POR_portugal_promoting_monarchist_cause_in_brazil_desc:0 "葡萄牙政府正在鼓动我国人民拥护君主制，接受佩德罗·恩里克亲王为巴西的合法统治者。"
- POR_stir_monarchist_sentiment_in_brazil_tt:0 "§Y[BRA.GetFlag][BRA.GetNameDefCap]§!中立派支持率将会每日增长：§G+0.10§!，§Y为期180日§!。"
+ POR_stir_monarchist_sentiment_in_brazil_tt:0 "§Y[BRA.GetFlag][BRA.GetNameDefCap]§!将获得每日中立主义新增支持率：§G+0.10§!，§Y持续180日§!。"
  POR_promote_communism_in_latin_america_tt:0 "§Y[From.GetFlag][From.GetNameDefCap]§!§Y共产主义§!支持率将会每日增长：§G+0.10§!，§Y为期180日§!。"
  POR_portugal_stirring_brazilian_monarchists_flag:0 "葡萄牙目前正在煽动巴西的君主主义者"
  POR_repress_brazilian_monarchists:0 "镇压君主主义者"

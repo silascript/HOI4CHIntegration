@@ -9,7 +9,7 @@
  poland.1301.b:0 "我们对所谓的“[From.GetFactionName]”不感兴趣。"
  poland.1302.t:0 "[From.GetNameDefCap]拒绝加入[faction_invitee_target.GetAdjective]"
  poland.1302.d:0 "和[Root.GetLeader]所预想的不同，[From.GetLeader]并不认为有加入[faction_invitee_target.GetAdjective]的必要。我们尚未查明这一决定的确切理由，但[From.GetAdjective]政府显然认定[faction_invitee_target.GetNameDef]对[From.GetFactionName]的国家利益来说弊大于利。"
- poland.1302.a:0 "人事已尽。"
+ poland.1302.a:0 "试试看总是好的。"
  poland.1303.t:0 "[From.GetNameDefCap]拒绝！"
  poland.1303.d:0 "出于某种原因，[From.GetAdjective]政府决定不与我国共同站在[From.From.GetFactionName]一方为自由而战。无论他们理由看起来有多么正当，[Root.GetAdjective]与[From.GetAdjective]已经不太可能继续长久合作下去了。"
  poland.1303.a:0 "真是遗憾。"

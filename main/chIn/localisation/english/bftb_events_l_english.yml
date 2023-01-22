@@ -97,7 +97,7 @@
  bftb_greece.31.a:0 "命运眷顾勇者。"
  GRE_border_war_possible_tt:0 "如果事态恶化，我们或许将被迫面对与邻国§Y[TUR.GetNameDef]§!的§R边境冲突§!。"
  bftb_greece.32.t:0 "希腊递交最后通牒"
- bftb_greece.32.desc:1 "当我国官员获悉那些费拉不堪的[FROM.GetNameDef]马克思主义分子完全不切实际的不合理要求时，他们的反应是愤怒的。[FROM.GetNameDef]声称代表[SOV.GetNameDef]行事，其不仅勒令我们恢复执行洛桑条约的每项要求，同时还要允许[SOV.GetAdjective]士兵在我国全境驻扎，以便他们能够作为一个“可靠且客观公正的第三方”确保我们遵守条约。\n\n除了挑起边境冲突，[FROM.GetAdjective]不会真的指望从这种荒唐的要求中得到什么吧？我们无时不刻不在国境线上努力维持和平，但显然和平从来不是可选的出路。如果[FROM.GetAdjective]真的代表[SOV.GetNameDef]行事，那么我们唯一得救的希望就是停止抵抗，并希望我们能够以此阻止[SOV.GetAdjective]军队用武力占领我国。尽管我们从来没有逃避争取正义的斗争——但如果我们不再愿意为所信仰的价值观而斗争，我们还配继续实施统治吗?"
+ bftb_greece.32.desc:1 "蛮横的[FROM.GetNameDef]马克思主义分子提出的完全不切实际且不合理的要求，令我国官员勃然大怒。[FROM.GetNameDef]声称代表[SOV.GetNameDef]行事，其不仅勒令我们恢复执行洛桑条约的每项要求，同时还要允许[SOV.GetAdjective]士兵在我国全境驻扎，以便他们能够作为一个“可靠且客观公正的第三方”确保我们遵守条约。\n\n除了挑起边境冲突，[FROM.GetAdjective]不会真的指望从这种荒唐的要求中得到什么吧？我们无时不刻不在国境线上努力维持和平，但显然和平从来不是可选的出路。如果[FROM.GetAdjective]真的代表[SOV.GetNameDef]行事，那么我们唯一得救的希望就是停止抵抗，并希望我们能够以此阻止[SOV.GetAdjective]军队用武力占领我国。尽管我们从来没有逃避争取正义的斗争——但如果我们不再愿意为所信仰的价值观而斗争，我们还配继续实施统治吗?"
  bftb_greece.32.a:0 "我们只能逆来顺受。"
  bftb_greece.32.b:0 "[FROM.GetAdjective]已入歧途，我们必须予以纠正。"
  bftb_greece.33.t:0 "[FROM.GetNameDef]屈服！"

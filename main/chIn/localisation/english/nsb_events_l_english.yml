@@ -361,7 +361,7 @@
  NSB_poland_events.303.desc:0 "[From.GetNameDefCap]回复提出了一个有条件的协议，且声称这是双赢互利的。该国认为，十一月五日敕令从未正式将格但斯克和格丁尼亚地区割让新成立的[Root.GetAdjective]王国。他们同时声明了同意签署同盟条约的意向，前提是这些违背得过意愿的事情必须得以纠正。"
  NSB_poland_events.303.t:0 "但泽换取保障"
  NSB_poland_events.304.a:0 "我们将用武力接管它。"
- NSB_poland_events.304.desc:0 "不幸的是，我们似乎没能同波兰达成协议，后者拒绝了以但泽以换结盟的提议。[From.GetAdjective]边界上的紧张局势不断升温，一些人担心战争即将来临。"
+ NSB_poland_events.304.desc:0 "不幸的是，我们似乎没能同波兰达成协议，后者拒绝了用但泽换取结盟的提议。[From.GetAdjective]边界上的紧张局势不断升温，一些人担心战争即将来临。"
  NSB_poland_events.304.t:0 "[From.GetNameDefCap]拒绝"
  NSB_poland_events.4.a:0 "卖给他们吧！"
  NSB_poland_events.4.b:0 "[POL_colony_purchase.GetName]是[Root.GetAdjective]殖民帝国不可分割的一部分！"

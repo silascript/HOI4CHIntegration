@@ -577,7 +577,7 @@
  SOV_broken_peace_dreams_defender_desc:1 "$SOV_broken_peace_dreams_attacker_desc$"
  SOV_restoration_and_development_idea:0 "重建和发展"
  SOV_restoration_and_development_idea_desc:0 "$SOV_restoration_and_development_desc$"
- SOV_no_time_for_peace_idea:0 "没有长久的和平"
+ SOV_no_time_for_peace_idea:0 "无暇和平"
  SOV_no_time_for_peace_idea_desc:1 "$SOV_no_time_for_peace_desc$"
  SOV_support_in_china_generic:1 "[SOU.GetAdjective]支援中国"
  SOV_support_in_china_generic_desc:1 "[SOU.GetAdjective]政府正在于我们对抗[JAP.GetAdjective]的战争中支持[ROOT.GetNameDef]，他们期望在与我们发展更紧密联系的同时影响我们的政治。"

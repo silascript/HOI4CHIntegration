@@ -1,4 +1,4 @@
-version="12.7"
+version="12.8"
 name="Chinese Localization Integration"
 path="mod/chIn/"
 tags={

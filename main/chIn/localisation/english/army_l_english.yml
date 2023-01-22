@@ -128,7 +128,7 @@
  OUR_KILLS:0 "我军战绩"
  TOTAL_SHIPS_LOST:0 "损失舰船总数"
  TOTAL_SHIPS_SUNK:0 "击沉舰船总数"
- SHIPS_LOST_SUNK_OF_ARCHETYPE:0 "我们在损失$LOST|Y$舰的同时也击沉了$ARCHETYPE|Y$型舰船$SUNK|Y$舰"
+ SHIPS_LOST_SUNK_OF_ARCHETYPE:0 "我们损失了$LOST|Y$艘$ARCHETYPE|Y$，也击沉了$SUNK|Y$艘该类型舰艇"
  SHIPS_LOST_FILTER_COUNTRY:0 "对目标国家数据进行过滤，仅显示该国被我们击沉和我们被该国击沉的舰船"
  SHIPS_LOST_FILTER_FACTION:0 "对目标阵营数据进行过滤，仅显示该阵营被我们击沉和我们被该阵营击沉的舰船"
  SHIPS_LOST_DETAILS:0 "§G点击查看细节§!"

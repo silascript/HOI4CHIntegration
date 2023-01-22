@@ -112,7 +112,7 @@
  war_propaganda_film_industry:0 "[ROOT.GetImportOrDomesticFilmIndustry]"
  war_propaganda_film_industry_desc:0 "[ROOT.GetImportOrDomesticFilmIndustryDesc]"
  DOMESTIC_FILM_INDUSTRY:0 "利用国内电影行业"
- IMPORTED_FILM_INDUSTRY:0 "进口同盟国宣传电影"
+ IMPORTED_FILM_INDUSTRY:0 "进口盟国宣传电影"
  DOMESTIC_FILM_INDUSTRY_DESC:0 "[ROOT.GetAdjective]的电影行业在过去十年间发展迅速。一些宣传爱国主义的电影既能满足人们对这种娱乐的需求，也能激发人们的爱国热情。这对我们来说是大有裨益的。"
  IMPORTED_FILM_INDUSTRY_DESC:0 "我们的保护者和盟友正在开发宣传性电影的一些战略用途。只要给出一小点投资，我们就能在我们的国家内放映这些电影。这将极大地激发人民支持战争的热情。"
  the_lion_has_wings:0 "有翼的狮子"

@@ -346,3 +346,7 @@
  EQUIPMENT_DESIGNER_FOREIGN_FILTER:0 "点击筛选储备中的设计。"
  EQUIPMENT_DESIGNER_OWN_FILTER:0 "点击筛选敌国储备中的设计。\n\n你需要更高的情报来查看这些信息。"
  EQUIPMENT_DESIGNER_OBSOLETE_FILTER:0 "点击筛选已过时的设计。"
+ ship_designer_submarine:0 "$EQUIPMENT_SUBMARINE$"
+ ship_designer_capital_ship:0 "$EQUIPMENT_CAPITAL_SHIP$"
+ ship_designer_screen:0 "$EQUIPMENT_SCREEN$"
+ ship_designer_carrier:0 "$EQUIPMENT_CARRIER$"

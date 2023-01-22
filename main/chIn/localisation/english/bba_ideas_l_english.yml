@@ -1,6 +1,6 @@
 ﻿l_english:
  ETH_ethiopia_supporting_independence_idea:0 "[ETH.GetName]支持独立"
- ETH_prince_regent_idea:0 "摄政王子$ETH_ras_imru_haile_selassie$"
+ ETH_prince_regent_idea:0 "摄政王$ETH_ras_imru_haile_selassie$"
  ETH_prince_regent_idea_desc:0 "$ETH_haile_selassie$皇帝远赴国际联盟寻求对[ROOT.GetAdjective]事业支持，同时$ETH_ras_imru_haile_selassie$王公担负起了抵抗侵略者的任务。在皇帝归来前，他将是[ROOT.GetName]实际上的领导人。"
  ETH_conservative_high_command_idea:0 "保守的总司令"
  ETH_conservative_high_command_idea_desc:0 "[ETH.GetName]的王公们知道如何打仗。我们没有必要改变数个世纪以来都屡试不爽的策略。在[ETH.GetAdjective]军队有更高士气和更多数量的情况下，敌人总会被我们的全力攻击击退。"
@@ -195,7 +195,7 @@
  ITA_servizio_informazione_militare_ns_desc:1 "我们的情报机构一方面能阻止外国间谍在我国暗中搞破坏，另一方面也能把我们的触手伸进敌国内部。"
  ITA_devaluated_lira:0 "贬值里拉"
  ITA_devaluated_lira_desc:1 "意埃战争的庞大军费开销严重阻滞了我们的经济。货币贬值可以使我国的产品在国际市场上更具竞争力，为我们的经济打上一针强心剂。"
- ITA_battaglia_del_grano:0 "小麦之战"
+ ITA_battaglia_del_grano:0 "粮食之战"
  ITA_battaglia_del_grano_desc:1 "为了国家的真正独立，我们不能依靠外国农业养活我们的民众，国家必须在农业上实现自给自足。谷物战役将会表达出我们实现农业自足的坚韧意志，同时我们也能在过程中汲取更多的凝聚力。"
  ITA_battaglia_per_la_terra:0 "土地之战"
  ITA_battaglia_per_la_terra_desc:1 "我们的土地战役将排干数英里的沼泽以创造农田。它还将提供新的就业机会，意大利人民坚韧不拔的灵魂会在这次行动中给外国政府留下深刻的印象。"

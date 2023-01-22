@@ -205,7 +205,7 @@
  medium_tank_amphibious_chassis_3:0 "先进型中型坦克底盘（两栖型）"
  medium_tank_amphibious_equipment_0:0 "战间期型中型两栖坦克"
  basic_medium_tank_chassis:0 "基础型中型坦克底盘"
- basic_medium_tank_chassis_short:0 "1934 中型"
+ basic_medium_tank_chassis_short:0 "1938 中型"
  basic_medium_tank_chassis_desc:0 "虽然轻型坦克再过去一段时间内已经成为机械化部队的支柱，但很明显它的增长潜力以濒临耗尽。在不远的未来，我们将会需要一款更大的但仍然保持着卓越机动性的战车。"
  improved_medium_tank_chassis:0 "改进型中型坦克底盘"
  improved_medium_tank_chassis_short:1 "1940 中型"
