@@ -1225,3 +1225,7 @@
  TUR_victory_or_death_against_communism_communism_desc:0 "在全球范围内对抗共产主义乃是正道。这并不仅仅是一场简单的意识形态之争：而是一场为保卫我们现有的生活，去与将会摧毁一切其染指事物的共产主义恐怖威胁进行的殊死搏斗。我们绝不能失败。"
  TUR_victory_or_death_against_communism_generic:0 "与俄帝国主义血战到底"
  TUR_victory_or_death_against_communism_generic_desc:0 "在全球范围内对抗[SOG.GetAdjective]帝国主义乃是正道。这并不仅仅是一场简单的边界纠纷：而是一场为保卫我们现有的生活，去与将会摧毁一切其染指事物的扩张帝国主义恐怖威胁进行的殊死搏斗。我们绝不能失败。"
+ BUL_all_that_glitters:0 "金光闪闪"
+ BUL_all_that_glitters_desc:0 "眼下的无形资产投资岌岌可危，而切洛佩奇的金矿可助我国经济一臂之力，其对我们的国家储备的影响不可小觑。"
+ BUL_light_metal_exploitation:0 "开采轻金属"
+ BUL_light_metal_exploitation_desc:0 "由于军事工业对自然资源的需求不断增多，我们应当努力扩大国内的资源的产出。尽管各种资源的储量并不丰富，但是迫于形势，我们必须授权开采。"

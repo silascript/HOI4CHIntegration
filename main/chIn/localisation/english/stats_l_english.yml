@@ -33,7 +33,7 @@
  STAT_ARMY_BREAKTHROUGH_VALUE:0 "$VALUE|H1$"
  STAT_ARMY_BREAKTHROUGH_DIFF:0 " $VALUE|=+1$"
  STAT_ARMY_HARDNESS:0 "装甲率："
- STAT_ARMY_HARDNESS_DESC:0 "§T§H装甲率§!表示你的§H陆军师§!中装甲车辆或者至少拥有防护的车辆的多少。\n\n陆军师的攻击有对人员杀伤和对装甲杀伤两种。一个师的§H装甲率§!越高会受到越少的§H对人员杀伤§!和越多的§H对装甲杀伤§!-反之亦然。§!"
+ STAT_ARMY_HARDNESS_DESC:0 "§T§H装甲率§!表示你的§H陆军师§!中装甲车辆或者至少拥有防护的车辆的多少。\n\n陆军师的攻击有对人员杀伤和对装甲杀伤两种。一个师的§H装甲率§!越高会受到越少的§H对人员杀伤§!和越多的§H对装甲杀伤§!——反之亦然。§!"
  STAT_ARMY_HARDNESS_VALUE:0 "$VALUE|H1%$"
  STAT_ARMY_HARDNESS_DIFF:0 " $VALUE|=+1$"
  STAT_ARMY_SOFT_ATTACK:0 "对人员杀伤："

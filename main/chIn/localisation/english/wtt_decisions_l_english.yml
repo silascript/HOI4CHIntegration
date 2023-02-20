@@ -10,7 +10,7 @@
  form_eu_italy_coring_states_tt:0 "获得§Y意大利§!在欧洲所有地区的核心。\n"
  form_country_germany_coring_states_tt:0 "获得§Y德国§!所有地区的核心。\n"
  form_spqr_france_required_states_tt:0 "控制§Y法国§!在欧洲、北非和中东的所有地区。"
- form_spqr_italy_required_states_tt:0 "控制§Y意大利§!在欧洲和北非的所有地区。"
+ form_spqr_italy_required_states_tt:1 "控制§Y意大利§!的所有核心地区。"
  form_spqr_britain_required_states_tt:0 "控制§Y英国§!在埃及、中东和东地中海的所有地区。"
  form_spqr_spain_required_states_tt:0 "控制§Y西班牙§!在欧洲和西属非洲的所有地区。"
  form_eu_portugal_required_states_tt:0 "控制§Y葡萄牙§!在欧洲的所有地区。"

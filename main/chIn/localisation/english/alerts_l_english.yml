@@ -82,7 +82,7 @@
  alert_faction_possible_invite_instant:0 "§H可邀请加入阵营的国家§!"
  ALERT_FACTION_POSSIBLE_INVITE_COUNTRY:0 "$COUNTRY|W$"
  DIPLOMACY_REQUEST_HEADER:0 "来自$COUNTRY|Y$的$NAME|Y$请求"
- DIPLOMACY_REQUEST_CLICKS:0 "§G左键点击打开\n右键点击以回绝§!"
+ DIPLOMACY_REQUEST_CLICKS:0 "§G左键点击打开\n右键点击回绝§!"
  alert_expensive_ships_low_str_instant:0 "§H大型军舰§R严重受损§!§!"
  alert_expensive_ships_low_str_entry:0 "$FLEET|H$有$NUM|R$艘大型军舰严重受损。\n"
  alert_air_reserve_unused_instant:0 "§H库存可用飞机§!"

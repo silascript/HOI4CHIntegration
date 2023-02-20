@@ -383,7 +383,7 @@
  COUNTERINTELLIGENCE_ACTIVITY_LEVEL_3:0 "§R严重§!：外国势力的影响是无可否认的"
  COUNTERINTELLIGENCE_ACTIVITY_LEVEL_4:0 "§R致命§!：外国势力的行动正在破坏该国的稳定"
  COUNTERINTELLIGENCE_ACTIVITY_LEVEL_DESC:0 "活动等级展示了该国过去几周所发生的外国破坏行动的数量以及危险性。"
- ON_OPERATION_STATUS:0 "正在$COUNTRY$内进行$OPERATION|H$行动"
+ ON_OPERATION_STATUS:0 "在$COUNTRY$执行$OPERATION|H$行动中"
  OPERATION_ETA_COMPLETED:0 "§Y已完成§!"
  OPERATION_OUTLOOK_DESC:0 "行动预期由两个因素影响：\n§H风险§!代表行动完成后特工被捕或被杀的概率。\n§H奖励成果§!将给你的特工一次获得更好行动成果的机会，或是在基础奖励的基础上获得其他奖励。"
  lar_decryption_bonus_tech:0 "破译加成"

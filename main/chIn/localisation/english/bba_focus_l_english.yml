@@ -1387,7 +1387,7 @@
  ITA_gappisti_state_modifier_rsi_tt:0 "$ITA_modify_partisan_state_modifier_intro$\n抵抗目标$ITA_in_our_controlled_states_cw$：§R+10%§!\n对我们驻军的伤害$ITA_in_our_controlled_states_cw$：§R+10%§!\n\n"
  ITA_partisan_republics_state_modifier_tt:0 "$ITA_modify_partisan_state_modifier_intro$\n$MODIFIER_COMPLIANCE_GROWTH_ON_OUR_OCCUPIED_STATES$：§G-10%§!\n\n"
  ITA_partisan_republics_spawn_divs_tt:0 "在最多§Y5个完全控制的核心地区§!创建§Y1个$militia$§!师。\n\n"
- ITA_the_kings_finest_spawn_divs_tt:0 "在[THIS.GetName]创建§Y3个$infantry$§!师和§Y1个高速机动师§!师。\n\n"
+ ITA_the_kings_finest_spawn_divs_tt:0 "在[THIS.GetName]创建§Y3个$infantry$§!师和§Y1个高速机动师§!。\n\n"
  ITA_guardia_nazionale_repubblicana_spawn_divs_tt:0 "在§Y[THIS.GetName]§!创建§Y5个黑衫军§!师。"
  ITA_battaglioni_m_re_tt:0 "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$\n$modifier_army_sub_unit_militia_max_org_factor$：§G+5.00%§!\n$modifier_army_sub_unit_militia_defence_factor$：§G+5.00%§!\n在§Y$ITA_battaglioni_d_assalto$§!国策完成时，§Y$blackshirt_assault_battalion$§!也将被加强。\n\n"
  ITA_battaglioni_m_re_battaglioni_d_assalto_tt:1 "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$\n$modifier_army_sub_unit_militia_max_org_factor$：§G+5.00%§!\n$modifier_army_sub_unit_militia_defence_factor$：§G+5.00%§!\n$modifier_army_sub_unit_blackshirt_assault_battalion_defence_factor$：§G+5.00%§!\n$modifier_army_sub_unit_blackshirt_assault_battalion_attack_factor$§G+5.00%§!\n\n"

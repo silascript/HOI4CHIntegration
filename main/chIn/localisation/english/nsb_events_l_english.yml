@@ -136,7 +136,7 @@
  LIT_events.5.b:0 "我们永不投降。"
  LIT_events.501.t:0 "维尔纽斯回归了！"
  LIT_events.501.desc:0 "[From.GetNameDefCap]已经同意和平归还维尔纽斯，这标志着我们两个国家间数十年冷战的正式结束。随着维尔纽斯的回归，立陶宛终于统一了。"
- LIT_events.502.desc:0 "不出所料，[From.GetNameDef]拒绝了[Root.GetLeader]将维尔纽斯割让给[Root.GetNameDef]的要去。虽然外交失败了，但是[Root.GetLeader]还没有排除战争的可能性，而且随着边境紧张局势升级，战争似乎不可避免。"
+ LIT_events.502.desc:0 "不出所料，[From.GetNameDef]拒绝了[Root.GetLeader]要求他们将维尔纽斯割让给[Root.GetNameDef]的要求。虽然外交手段没能解决问题，但[Root.GetLeader]还没有排除战争的可能性，而且随着边境紧张局势升级，战争似乎不可避免。"
  LIT_events.502.a:0 "战争？我管这叫进攻性谈判。"
  LIT_events.6.t:0 "[From.GetNameDefCap]提议成立波兰-立陶宛至高联盟"
  LIT_events.6.d:0 "[From.Capital.GetName]今日发来电报，他们希望[Root.GetNonIdeologyName]和[From.GetNonIdeologyName]携手组建一个足以与[GER.GetNameDef]和[SOV.GetNameDef]匹敌的新阵营。作为被两大强权包围的民族主义国家，我们两国和其他欧洲强国的联系几乎被中断，而西方民主势力也不太愿意加入我们和法西斯国家的冲突。\n\n[From.GetLeader]提议[Root.GetAdjective]和[From.GetAdjective]两国放下自建国以来的冲突，[From.GetLeader.GetSheHeCap]希望我们统一成为波兰-立陶宛至高联盟，这个同盟基于联邦原则，但尊重民族主义价值观。"
