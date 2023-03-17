@@ -352,7 +352,7 @@
  AIRWING_RECENTLY_ASSIGNED_WARNING:0 "§R只有当你的航空队被分配到一个有效的任务中时，你才能重新获得效率。§!"
  AIRWING_MISSION_TYPE_TRAINING_DESC_SHIFT_CLICK:0 "按住§HShift§!并点击可以开启§H空军演习§!直到§H空军联队§!得到充分训练"
  AIRWING_MISSION_TYPE_RECON:0 "空中侦察"
- AIRWING_MISSION_TYPE_RECON_DESC:1 "执行空中侦察和情报收集任务。\n\n非侦察机只能在敌方控制的省份执行该任务。"
+ AIRWING_MISSION_TYPE_RECON_DESC:1 "执行空中侦察和情报收集任务。\n\n非侦察机只能在敌方控制的地区执行该任务。"
  AIRWING_MISSION_TRAINING_WILL_STOP_AT_MAX:0 "§H空军演习§!将在§H空军联队§!达到最高训练水平时自动停止。"
  AIR_REINFORCE_OBSOLETE_ONLY:1 "§H预备空军联队§!\n仅使用过时的型号增援§H空军联队§!。"
  AIR_REINFORCE_ANY:1 "§H常规空军联队§!\n使用最新和过时的型号增援§H空军联队§!。"

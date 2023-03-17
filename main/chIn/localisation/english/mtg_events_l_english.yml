@@ -914,7 +914,7 @@
  panay_inc_opinion_modifier:0 "帕奈号事件"
  panay_inc2_opinion_modifier:0 "攻击英国瓢虫号"
  panay_incident.2.t:0 "美国帕奈号在中国沉没！"
- panay_incident.2.d:0 "帕奈号于今早早些时候遭到了攻击，当时她正在从[JAP.GetName]和[CHI.GetName]两国军队交战的战场中撤出平民，并且非常明确地打出了[USA.GetAdjective]的旗帜。但她依旧被两枚炮弹击中并沉没，这起事件造成了三民美国公民死亡，多人受伤。幸存者被此区域附近的[USA.GetAdjective]以及[ENG.GetAdjective]的炮艇救起。\n\n[JAP.GetNameDef]很快发表声明称这只是一个意外，并为这个意外而道歉。但一些人依旧认为这次攻击是蓄意而为，并且一部分人建议宣战。然而战争的呼声并不高，在这种情况下我们的任何表态都很难得到国内的舆论支持。我们应该如何回应？"
+ panay_incident.2.d:0 "帕奈号于今早早些时候遭到了攻击，当时她正在从[JAP.GetName]和[CHI.GetName]两国军队交战的战场中撤出平民，并且非常明确地打出了[USA.GetAdjective]的旗帜。但她依旧被两枚炮弹击中并沉没，这起事件造成了三名美国公民死亡，多人受伤。幸存者被此区域附近的[USA.GetAdjective]以及[ENG.GetAdjective]的炮艇救起。\n\n[JAP.GetNameDef]很快发表声明称这只是一个意外，并为这个意外而道歉。但一些人依旧认为这次攻击是蓄意而为，并且一部分人建议宣战。然而战争的呼声并不高，在这种情况下我们的任何表态都很难得到国内的舆论支持。我们应该如何回应？"
  panay_incident.2.e:0 "炮艇帕奈号于今日早些时候被击沉，当时她正在[JAP.GetName]和[CHI.GetName]两国军队交战的战场中撤出平民，并且她们明确打出了[USA.GetAdjective]的旗帜。她还是被两枚炮弹击中并因此而沉没，三名美国公民死亡，多人受伤。幸存者被附近的[USA.GetAdjective]和[ENG.GetAdjective]的炮艇救起。\n\n[JAP.GetNameDef]很快发表声明称这只是一个意外，并为这个意外道歉。但一些人认为这是蓄意而为，他们要求为此而宣战。我们应该如何回应？"
  panay_incident.2.a:0 "撤出我们在中国的部队"
  panay_incident.2.a.tt:0 "公众对政府干预外国事物一事深感忧虑。如果我们的军队不曾在[CHI.GetName]的话，这场悲剧根本就不会发生。从中国撤出小部分炮艇以及我们的人员将有助于国内稳定，但这也预示着我们未来难以进行任何军事干预。\n\n"

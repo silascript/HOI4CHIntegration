@@ -615,7 +615,7 @@
  SOV_ambassador_karim_khakimov_desc:0 "$NSB_soviet_foreign_politics_events.211.desc$"
  SOV_shocked_by_surprise_attack:0 "被偷袭震撼"
  SOV_shocked_by_surprise_attack_desc:0 "敌方代号为\"面容\"的军事行动完全出乎了我国政府和军队的意料。我们的通讯被切断，部队被完全压制，召集敌方外交官要求解释的尝试也以徒劳告终。在我们试图搞清混乱状况的同时，我们的对外关系已经在实际上被无效化了。"
- SOV_shocked_by_surprise_attack_cant_join_factions_tt:0 "设定规则：£trigger_no 可以加入阵营"
+ SOV_shocked_by_surprise_attack_cant_join_factions_tt:0 "设定规则：£trigger_no 可以加入阵营。"
  SOV_soviet_commandos_poum:0 "苏联突击队"
  SOV_soviet_commandos_poum_desc:0 "[SOV.GetNameDef]的反斯大林右翼反对派已经在我们国家部署了训练有素的特工执行特殊行动并且教我们的人民如何发动战争。"
  SOV_popular_speeches_poum:0 "公众演讲"

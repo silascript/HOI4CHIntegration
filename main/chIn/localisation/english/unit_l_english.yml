@@ -308,7 +308,7 @@
  SPEED_RETREATING:0 "撤退中：$VALUE|+=%$"
  GOOD_ARMOR_DEFENSE_DESC:1 "被无法击穿我们的敌军师攻击时，我们受到的组织度和兵力伤害会减少最多$ORG|%0G$。\n"
  GOOD_ARMOR_ATTACK_DESC_STR:2 "攻击一个无法击穿我们装甲的敌军师时，我们可以造成额外伤害。\n"
- GOOD_ARMOR_ATTACK_DESC_ORG:2 "攻击一个无法击穿我们§H50%§!装甲厚度的敌军师时，我们可以造成额外伤害。\n"
+ GOOD_ARMOR_ATTACK_DESC_ORG:2 "攻击一个穿透深度低于我们装甲厚度§H50%§!的敌军师时，我们可以造成额外伤害。\n"
  PIERCING_GOOD_DESC:0 "这个师并不会因具备击穿对手的能力而获得额外加成，但却能阻止对手凭借装甲获得优势。"
  PREPERATION_BASE_DAILY_GAIN:0 "基础每日增加值：$VALUE|0%Y$"
  PREPERATION_BASE_MAX:0 "基础最大值：$VALUE|0%Y$"

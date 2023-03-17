@@ -1610,7 +1610,7 @@
  BBA_italy_anti_colonialism_events.20.t:0 "[FROM.GetNameDefCap]谴责殖民主义"
  BBA_italy_anti_colonialism_events.20.desc:0 "新成立的[FROM.GetName]似乎产生了新的道德感和使命感，并开始承担起摧毁其他所有殖民帝国的责任。一个意大利代表团要求我们摒弃我们的帝国主义行径，拥抱一个合作而自由的未来，而非压迫与征服。"
  BBA_italy_anti_colonialism_events.20.a:0 "是时候拨乱反正了！"
- BBA_italy_anti_colonialism_events.20.b:0 "[FROM.GetAdjective]家伙疯了吗？！"
+ BBA_italy_anti_colonialism_events.20.b:0 "[FROM.GetAdjective]这些家伙疯了吗？！"
  BBA_italy_anti_colonialism_events.21.t:0 "非洲去殖民化"
  BBA_italy_anti_colonialism_events.21.desc:0 "[GetDecolonizationEventDesc]"
  BBA_italy_anti_colonialism_events.21.desc_accepted:0 "当我们谴责殖民主义并投身于瓦解非洲旧殖民帝国的事业时，我们并不确定具体该怎么做。考虑到现有的旧殖民帝国会坚定地抱残守缺，坚持他们一贯所相信的旧事物，我们必须将每一次努力视为巨大的成功。哪怕是解放一个小小的国家也是伟大的成就！"

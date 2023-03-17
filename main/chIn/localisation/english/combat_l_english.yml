@@ -328,7 +328,7 @@
  SCREENING_TOOLTIP_SCREEN_BOX:1 "§Y屏卫舰群§!的屏卫效率：$NUM|%.0H$"
  SCREENING_TOOLTIP_CAPITAL_BOX:1 "§Y战列线§!的屏卫效率：$NUM|%.0H$"
  SCREENING_TOOLTIP_CAPITAL_BOX_COMBINED:1 "§Y战列线§!的综合屏卫效率：$NUM|%.0H$"
- SCREENING_TOOLTIP_FOR_SCREEN_BOX:2 "你的$NUM_CAPI|.0H$搜§Y主力舰§!、$NUM_CARR|.0H$艘§Y航空母舰§!和$NUM_CONV|.0H$艘§Y运输船§!需要$NUM_NEED|.0H$艘§Y屏卫舰§!才能被完全屏卫，你现有$NUM_SCRE|.0H$艘§Y屏卫舰§!。"
+ SCREENING_TOOLTIP_FOR_SCREEN_BOX:2 "你的$NUM_CAPI|.0H$艘§Y主力舰§!、$NUM_CARR|.0H$艘§Y航空母舰§!和$NUM_CONV|.0H$艘§Y运输船§!需要$NUM_NEED|.0H$艘§Y屏卫舰§!才能被完全屏卫，你现有$NUM_SCRE|.0H$艘§Y屏卫舰§!。"
  SCREENING_TOOLTIP_FOR_CAPITAL_BOX:2 "你的$NUM_CARR|.0H$艘§Y航空母舰§!和$NUM_CONV|.0H$艘§Y运输船§!需要$NUM_NEED|.0H$艘§Y主力舰§!才能被完全屏卫，你现有$NUM_CAPI|.0H$艘§Y主力舰§!。"
  SCREENING_TOOLTIP_LOW_INFO:1 "§Y屏卫舰群§!舰艇过少将导致屏卫效率低下，位于战列线的舰艇可能会遭受敌方潜艇的袭击。"
  SCREENING_TOOLTIP_BONUSES:1 "你的屏卫效率将为§Y战列线§!提供以下加成：\n"
