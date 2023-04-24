@@ -934,7 +934,7 @@
  BUL_foreign_agreements_factions_eng_tt:0 "与§Y[ENG.GetNameWithFlag]§!不在同一阵营中（或者§Y[ENG.GetNameWithFlag]§!是§Y[ROOT.GetNameWithFlag]§!的附属国）"
  BUL_foreign_agreements_factions_sov_tt:0 "与§Y[SOV.GetNameWithFlag]§!不在同一阵营中（或者§Y[SOV.GetNameWithFlag]§!是§Y[ROOT.GetNameWithFlag]§!的附属国）"
  BUL_foreign_agreements_factions_ita_tt:0 "与§Y[ITA.GetNameWithFlag]§!不在同一阵营中（或者§Y[ITA.GetNameWithFlag]§!是§Y[ROOT.GetNameWithFlag]§!的附属国）"
- BUL_bulgarian_reintegration_campaign:1 "对[FROM.GetName]保加利亚化再整合"
+ BUL_bulgarian_reintegration_campaign:2 "对[FROM.GetName]保加利亚化再整合"
  GRE_faction_loyal_effects:0 "\n§Y效果：§!§G稳定度：+10%\n适役人口修正：+20%§!"
  GRE_monarchists_name_text:0 "君主派"
  GRE_republicans_name_text:0 "共和派"
@@ -1008,3 +1008,4 @@
  GRE_invest_back_into_neglected_siberian_regions_desc:0 "我们将向[FROM.GetNameDefCap]提议投资他们最受忽视的地区，以此互惠互利之举，我们可以降低[FROM.GetAdjective]人所施加的影响力。"
  TUR_petrol_ofisi_formed:0 "已经赞助筹建燃油办工作处。\n"
  form_rumelia_albania_coring_states_tt:0 "获得所有§Y阿尔巴尼亚§!地区的核心。"
+ TUR_investment_in_turkey_pending_flag:0 "[FROM.GetNameDefCap]已经同意了我们的投资项目但尚未进行投入。"

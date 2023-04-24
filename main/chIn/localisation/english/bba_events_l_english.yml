@@ -1870,7 +1870,7 @@
  BBA_switzerland_trade.4.b:0 "转焦于民用生产。"
  BBA_switzerland_trade.4.c:0 "转焦于军用生产。"
  BBA_switzerland_trade.4.d:0 "不再值得我们麻烦了"
- BBA_switzerland_trade.5.t:0 "[FROM.GetName]离场使我们的贸易协定失效"
+ BBA_switzerland_trade.5.t:0 "[FROM.GetName]放弃了我们的贸易协定"
  BBA_switzerland_trade.5.desc:0 "尽管我们向[FROM.GetName]允以在双边贸易协定中的优厚条款，但他们孤芳自赏，决定拒绝续签此协定。\n\n这大大超乎我们的预料，为什么他们会决定这样做，不过这么着也许最好。"
  BBA_switzerland_trade.5.a:0 "这是他们的损失！"
  BBA_switzerland_trade.6.t:0 "[FROM.GetNameDefCap]接受了我们提出的贸易协定！"

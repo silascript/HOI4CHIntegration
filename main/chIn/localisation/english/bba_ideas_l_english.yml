@@ -174,7 +174,7 @@
  ITA_specialization_dynamic_modifier_tt:0 "§Y所有飞行器装备§!：$production_cost_tt$§R+5.00%§!\n"
  ITA_incrociatori_leggeri_dynamic_modifier_tt:0 "§Y$screen_ship$§!：$production_cost_tt$§G-5.00%§!\n§Y$screen_ship$§!：最大速度：§G+5%§!\n"
  ITA_incrociatori_pesanti_dynamic_modifier_tt:0 "§Y$capital_ship$§!：$production_cost_tt$§G-5.00%§!\n§Y$capital_ship$§!：装甲厚度：§G+5%§!\n"
- ITA_deck_conversions_dynamic_modifier_tt:0 "§Y$carrier$§!：$production_cost_tt$§G-20.00%§! \n§Y$carrier$§!：搭载量：§R-25%§! \n§Y$carrier$§!：装甲厚度：§R-10%§!\n"
+ ITA_deck_conversions_dynamic_modifier_tt:1 "§Y$carrier$§!：$production_cost_tt$§G-20.00%§! \n§Y$carrier$§!：搭载量：§R-1%§! \n§Y$carrier$§!：装甲厚度：§R-10%§!\n"
  ITA_mobilize_the_railway_guns_dynamic_modifier_tt:0 "§Y$railway_gun_equipment_1$§!和§Y$train_equipment_3$§!：$production_cost_tt$§G-10.00%§!\n"
  ITA_modern_musculus_dynamic_modifier_tt:0 "§Y$super_heavy_tank_chassis$§!：$production_cost_tt$§G-20.00%§!\n§Y$super_heavy_tank_chassis$§!：装甲厚度：§G+10%§!\n"
  ITA_caligulas_pride_dynamic_modifier_tt:0 "§Y$ship_hull_super_heavy_1$§!：$production_cost_tt$§G-15.00%§!\n§Y$ship_hull_super_heavy_1$§!：装甲厚度：§G+10%§!\n"
@@ -437,3 +437,4 @@
  SWI_dissent_crackdown_idea:0 "镇压异见人士"
  SWI_reduced_training_age:0 "降低受训年龄"
  ETH_aid_ethiopian_communists:0 "帮助埃塞俄比亚共产主义者"
+ ETH_nissan:0 "日产"

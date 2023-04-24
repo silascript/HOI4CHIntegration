@@ -1099,7 +1099,7 @@
  basic_carrier:0 "基础航空母舰 II型"
  improved_destroyer:0 "改进型驱逐舰 III型"
  basic_dp_light_battery:0 "基础高平两用炮"
- basic_dp_light_battery_desc:0 "将反舰炮与防空炮合并于同一炮座上，可以提高灵活性并减轻重量。\n\n安装这一模块可以提高§Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!，有助于攻击地方§Y屏卫舰§!。这些模块也有助于提高§Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!。\n安装一个§Y副炮§!模块可以使§Y$ship_hull_cruiser$§!、§Y$ship_hull_carrier$§!或§Y$ship_hull_heavy$§!进行少量的§Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!，并允许其攻击第二个目标。"
+ basic_dp_light_battery_desc:0 "将反舰炮与防空炮合并于同一炮座上，可以提高灵活性并减轻重量。\n\n安装这一模块可以提高§Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!，有助于攻击敌方§Y屏卫舰§!。这些模块也有助于提高§Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!。\n安装一个§Y副炮§!模块可以使§Y$ship_hull_cruiser$§!、§Y$ship_hull_carrier$§!或§Y$ship_hull_heavy$§!进行少量的§Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!，并允许其攻击第二个目标。"
  improved_dp_light_battery:0 "改进型高平两用炮"
  improved_dp_light_battery_desc:0 "全封闭动力式双联装炮座可以大大增加火力和防护，同时减轻重量。\n\n安装这一模块可以提高§Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!，有助于攻击地方§Y屏卫舰§!。这些模块也有助于提高§Y$EQUIPMENT_DESIGNER_ANTI_AIR_ATTACK_ICON_TOOLTIP$§!。\n安装一个§Y副炮§!模块可以使§Y$ship_hull_cruiser$§!、§Y$ship_hull_carrier$§!或§Y$ship_hull_heavy$§!进行少量的§Y$EQUIPMENT_DESIGNER_LG_ATTACK_ICON_TOOLTIP$§!，并允许其攻击第二个目标。"
  advanced_dp_light_battery:0 "先进型高平两用炮"
